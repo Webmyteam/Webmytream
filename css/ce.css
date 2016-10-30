@@ -83,18 +83,18 @@ a:hover {
   margin-bottom: 15px;
 }
 
-#cedao ul li:nth-of-type(2) {
+#cedao ul li:nth-of-type(1) {
   position: relative;
 }
 
-#cedao ul li:nth-of-type(2) span {
+#cedao ul li:nth-of-type(1) span {
   position: absolute;
   top: 0;
   left: -100px;
   display: none;
 }
 
-#cedao ul li:nth-of-type(2):hover span {
+#cedao ul li:nth-of-type(1):hover span {
   display: block;
 }
 
