@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import url(base.css);
+/*搜索*/
+.Dss {
+  width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.Dss input:nth-child(1) {
+  width: 990px;
+  height: 80px;
+  border: 1px solid #e5e5e5;
+  float: left;
+  font-size: 20px;
+  color: #eee;
+}
+
+.Dss input:nth-child(2) {
+  width: 178px;
+  height: 80px;
+  border: none;
+  background: #40d1f1;
+  float: right;
+  font-size: 38px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*下拉*/
+.Dxiala {
+  width: 1200px;
+  height: 33px;
+  margin: 48px auto 52px;
+}
+
+.Dxiala select:nth-child(1) {
+  width: 227px;
+  height: 33px;
+  border: 1px solid #e5e5e5;
+  float: left;
+  margin-right: 16px;
+}
+
+.Dxiala select:nth-child(2) {
+  width: 227px;
+  height: 33px;
+  border: 1px solid #e5e5e5;
+  float: left;
+  margin-right: 16px;
+}
+
+.Dxiala select:nth-child(3) {
+  width: 227px;
+  height: 33px;
+  border: 1px solid #e5e5e5;
+  float: left;
+  margin-right: 16px;
+}
+
+.Dxiala select:nth-child(4) {
+  width: 227px;
+  height: 33px;
+  border: 1px solid #e5e5e5;
+  float: left;
+  margin-right: 16px;
+}
+
+.Dxiala select:nth-child(5) {
+  width: 227px;
+  height: 33px;
+  border: 1px solid #e5e5e5;
+  float: left;
+}
