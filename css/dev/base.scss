@@ -1,6 +1,16 @@
 /*inner-width*/
 $inner-width:1200px;
 $margin:0px auto;
+/*myresume中的颜色*/
+$myresume-zp-bgcolor:#34a3fd;
+$myresume-zp-fontcolor:#aeaeae;
+$fontSize:12px;
+$headings:(h1:2em,h2:1.5em,h3:1.2em);
+@each $header,$size in $headings{
+	#{$header}{
+	font-size:$size;
+	}
+}
 *{
     margin:0px;
     padding:0px;
@@ -8,9 +18,74 @@ $margin:0px auto;
     list-style-type:none;
     box-sizing:border-box;
 }
+body{
+	$fontSize:14px;
+    font-size:$fontSize;
+    font-family:"微软雅黑";
+    color:#666;
+    font-weight:400;
+}
 a{
     text-decoration:none;
 }
 img{
     border:none;
+}
+/*上下左右居中的混合宏*/
+@mixin center{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+}
+/*上下居中的混合宏*/
+@mixin top-bottom{
+	position:absolute;
+	top:0;
+	bottom:0;
+	margin:auto;
+}
+/*左右居中的混合宏*/
+@mixin top-bottom{
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+}
+/*yuan的混合宏*/
+@mixin yuan($w){
+	width:$w;
+	height:$w;
+	border-radious:50%;
+}
+/*带参数左右浮动的混合宏*/
+@mixin float($f){
+	float:$f;
+}
+/*div的混合宏*/
+@mixin div($width,$height,$b){
+	width:$width;
+	height:$height;
+	background:$b;
+}
+/*box-shadow的混合宏*/
+@mixin bs{
+	box-shadow:0 0 5px #000;
+}
+/*image路径*/
+$img-path:'../images';
+
+$linkColor:#fff #c00 !default;//第一个值为默认值，第二个值为鼠标经过的值
+a{
+	color:nth($linkColor,1);
+	font-size:12px;
+	&:hover{
+	color:nth($linkColor,2);
+	}
+}
+/*font line-height的混合宏*/
+@mixin fs($L){
+	line-height:$L;
 }
