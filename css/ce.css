@@ -75,15 +75,33 @@ a:hover {
   height: 100%;
 }
 
-#cedao ul a {
-  display: block;
-  width: 43px;
-  height: 43px;
-  background: url("../images/celan/home.png");
+#cedao ul li {
+  padding-left: 15px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#cedao ul li:nth-of-type(2) {
+  position: relative;
+}
+
+#cedao ul li:nth-of-type(2) span {
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+  left: -100px;
+  display: none;
+}
+
+#cedao ul li:nth-of-type(2):hover span {
+  display: block;
+}
+
+#cedao ul li:nth-last-child(2) {
+  margin-top: 50px;
+}
+
+#cedao ul li:last-child {
+  margin-top: 30px;
 }
