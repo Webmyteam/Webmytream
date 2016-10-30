@@ -81,21 +81,14 @@ a:hover {
   height: auto;
   overflow: hidden;
   margin-bottom: 15px;
-}
-
-#cedao ul li:nth-of-type(1) {
   position: relative;
 }
 
-#cedao ul li:nth-of-type(1) span {
+#cedao ul li span {
   position: absolute;
   top: 0;
-  left: -100px;
+  left: -86px;
   display: none;
-}
-
-#cedao ul li:nth-of-type(1):hover span {
-  display: block;
 }
 
 #cedao ul li:nth-last-child(2) {
@@ -104,4 +97,32 @@ a:hover {
 
 #cedao ul li:last-child {
   margin-top: 30px;
+}
+
+#cedao ul li:nth-of-type(1):hover span {
+  display: block;
+}
+
+#cedao ul li:nth-of-type(2):hover span {
+  display: block;
+}
+
+#cedao ul li:nth-of-type(3):hover span {
+  display: block;
+}
+
+#cedao ul li:nth-of-type(4):hover span {
+  display: block;
+}
+
+#cedao ul li:nth-of-type(5):hover span {
+  display: block;
+}
+
+#cedao ul li:nth-of-type(6):hover span {
+  display: block;
+}
+
+#cedao ul li:nth-of-type(7):hover span {
+  display: block;
 }
