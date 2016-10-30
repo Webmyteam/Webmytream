@@ -1,5 +1,22 @@
 @charset "UTF-8";
 @import url(base.css);
+body {
+  background: #f4f4f4;
+}
+
+* {
+  font-family: "微软雅黑";
+}
+
+.Dbanner {
+  width: 100%;
+  height: auto;
+}
+
+.Dbanner img {
+  width: 100%;
+}
+
 /*搜索*/
 .Dss {
   width: 1200px;
@@ -13,7 +30,9 @@
   border: 1px solid #e5e5e5;
   float: left;
   font-size: 20px;
-  color: #eee;
+  color: #999;
+  background: #f4f4f4;
+  padding-left: 30px;
 }
 
 .Dss input:nth-child(2) {
@@ -34,41 +53,251 @@
   margin: 48px auto 52px;
 }
 
-.Dxiala select:nth-child(1) {
+.Dblk {
   width: 227px;
   height: 33px;
   border: 1px solid #e5e5e5;
   float: left;
   margin-right: 16px;
+  background: #f4f4f4;
+  overflow: hidden;
 }
 
-.Dxiala select:nth-child(2) {
-  width: 227px;
-  height: 33px;
-  border: 1px solid #e5e5e5;
-  float: left;
-  margin-right: 16px;
+.Dxiala select {
+  width: 243px;
+  height: 31px;
+  border: none;
+  background-image: url(../images/zhiweilist/xiabiao.png);
+  background-repeat: no-repeat;
+  background-position: 215px 21px;
+  background-color: #f4f4f4;
 }
 
-.Dxiala select:nth-child(3) {
-  width: 227px;
-  height: 33px;
-  border: 1px solid #e5e5e5;
-  float: left;
-  margin-right: 16px;
+.Dxiala .Dblk:nth-child(5) {
+  margin-right: 0px;
 }
 
-.Dxiala select:nth-child(4) {
-  width: 227px;
-  height: 33px;
+.Dbox {
+  width: 1200px;
+  height: 1024px;
+  margin: 0 auto;
   border: 1px solid #e5e5e5;
-  float: left;
-  margin-right: 16px;
 }
 
-.Dxiala select:nth-child(5) {
-  width: 227px;
-  height: 33px;
+.Dhezi {
+  width: 100%;
+  height: 169px;
+}
+
+.Dimg {
+  width: 112px;
+  height: 112px;
+  border: 1px solid #e5e5e5;
+  margin: 28px 0 0 32px;
+  float: left;
+}
+
+.Dxbk {
+  width: 1131px;
+  height: 1px;
+  background: #E5E5E5;
+  margin-left: 33px;
+  margin-top: 28px;
+  float: left;
+}
+
+.Dzw {
+  width: 250px;
+  height: 110px;
+  margin: 29px 0 0 47px;
+  float: left;
+  line-height: 38px;
+}
+
+.Dzw p {
+  color: #333;
+}
+
+.Dzw p span {
+  color: #f2d76d;
+}
+
+.Dsg {
+  width: 1px;
+  height: 88px;
+  background: #e5e5e5;
+  margin: 38px 0 0 156px;
+  float: left;
+}
+
+.Dzw p:nth-child(3) {
+  font-size: 14px;
+}
+
+.Dkb {
+  width: 190px;
+  height: 110px;
+  margin: 29px 0 0 46px;
+  float: left;
+  line-height: 38px;
+}
+
+.Dkb p {
+  color: #333;
+}
+
+.Dbyd {
+  margin-top: 6px;
+  width: 182px;
+  height: 22px;
+}
+
+.Dkb .Dbyd a {
+  font-size: 12px;
+  display: block;
   border: 1px solid #e5e5e5;
   float: left;
+  width: 58px;
+  height: 22px;
+  margin-right: 4px;
+  text-align: center;
+  line-height: 22px;
+  border-radius: 5px;
+  color: #333;
+}
+
+.Dbyd a:nth-child(3) {
+  margin: 0;
+}
+
+.Danniu {
+  width: 138px;
+  height: 42px;
+  background: #40d1f1;
+  float: right;
+  margin: 53px 25px 0 0;
+  border-radius: 10px;
+  line-height: 42px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Dymtz {
+  width: 100%;
+  height: 177px;
+}
+
+.Dymtz .Dtz {
+  width: 530px;
+  height: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 78px;
+}
+
+.Dtz li {
+  float: left;
+  color: #333;
+  margin-right: 11px;
+  cursor: pointer;
+}
+
+.Dtz .Dytsz {
+  border: 1px solid #e5e5e5;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.Dytfk {
+  width: 38px;
+  height: 22px;
+  border: 1px solid #e5e5e5;
+}
+
+.Dtjqy {
+  width: 1200px;
+  height: 169px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.Dtjqy img {
+  margin: 74px 0 0 10px;
+  float: left;
+}
+
+.Dtjqy p {
+  float: left;
+  line-height: 195px;
+  color: #666;
+  font-size: 20px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.Dct {
+  width: 1200px;
+  height: 425px;
+  margin: 0 auto;
+}
+
+.Dct-box {
+  width: 279px;
+  height: 279px;
+  float: left;
+  border-radius: 10px;
+  background: green;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  margin-right: 28px;
+}
+
+.Dct-box:nth-child(4) {
+  margin-right: 0;
+}
+
+.Dzhao {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #E5E5E5;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  transform: translateY(279px);
+  transition: all 0.8s;
+}
+
+.Dzhao h3 {
+  padding-top: 49px;
+}
+
+.Dhg {
+  width: 34px;
+  height: 1px;
+  margin: 18px auto;
+  background: #fff;
+}
+
+.Dzhao span {
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  width: 123px;
+  height: 34px;
+  display: block;
+  line-height: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin: 42px auto 0;
+}
+
+.Dct-box:hover .Dzhao {
+  transform: translateY(0px);
 }
