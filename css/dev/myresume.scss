@@ -1,6 +1,11 @@
 @import "base";
 $Bcolor:#46b45b;
 $Bcolor2:#35a2ff;
+$Bcolor3:#dedede;
+@mixin margin{
+    margin-left: auto;
+    margin-right: auto;
+}
 .Bcontent{
     width: $inner-width;
     height: auto;
@@ -80,6 +85,7 @@ $Bcolor2:#35a2ff;
         float:left; 
         color: #8d8d8d; 
         font-family: "consolas";   
+       
     }
 }
 .summary{
@@ -104,4 +110,93 @@ $Bcolor2:#35a2ff;
         margin-top: 62px;
         overflow: hidden;
     }
+}
+.ready{
+    position: relative;
+    width: $inner-width;
+    height: 910px;
+    border-top:1px dashed #dedede;
+    border-bottom:1px dashed #dedede;
+    @include margin;
+    padding: 40px 0;
+    box-sizing: border-box;
+    .yuan1{
+        @include yuan(5px,$Bcolor3);
+        position: absolute;
+        top:-3px;
+        left: -3px;
+    }
+    .yuan2{
+        @include yuan(5px,$Bcolor3);
+        position: absolute;
+        top:-3px;
+        right: -3px;
+    }
+    .one{
+        width: 100%;
+        height: 360px;
+        float: left;
+        .tu1{
+            float: left;
+            width: auto;
+            height: auto;
+        }
+        .word{
+            float: left;
+            width: auto;
+            height: auto;
+            p{
+                width: 578px;
+                height: auto;
+                margin-top: 20px;
+                padding-left: 65px;
+                box-sizing: border-box;
+                font-size: 12px;
+                color: #939393;
+            }
+        }
+    }
+    .two{
+        float: left;
+        width: 100%;
+        height: auto;
+        margin-top: 75px;
+        .tu1{
+            float: left;
+            width: auto;
+            height: auto;
+            margin-left: -10px;
+        }
+        .tu2{
+            float: left;
+            width: 820px;
+            height: 293px;
+            position: relative;
+            .video,{
+                font-size: 22px;
+                margin-left: 20px;
+                background: transparent;
+                line-height: 40px;
+            }
+            #tu1{
+                margin-left: 20px;
+                margin-top: 10px;
+            }
+            .like{
+                margin-top: 20px;
+                margin-left: 20px;
+                display: block;
+            }
+        }
+    }
+}
+#tu2{
+    position: absolute;
+    left: 250px;
+    top:60px;
+}
+#tu3{
+    position: absolute;
+    right: -101px;
+    top:100px;
 }
