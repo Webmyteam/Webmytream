@@ -1,4 +1,7 @@
 @import "base";
+@import url("base.css");
+//定义变量
+$linkColor:#fff #c00;   //第一个为默认值，第二个是鼠标滑过的值
 /*header*/
 .header{
     width:$inner-width;
@@ -9,5 +12,14 @@
         width:80px;
         height:100%;
         background:red;
+        @include img-center;
+        
+    }
+}
+a{
+    font-size:12px;
+    color:nth($linkColor,1);
+    &:hover{
+        color:nth($linkColor,2);
     }
 }
