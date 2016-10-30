@@ -182,7 +182,7 @@ a:hover {
 .ready .yuan1 {
   width: 5px;
   height: 5px;
-  border-radious: 50%;
+  border-radius: 50%;
   background: #dedede;
   position: absolute;
   top: -3px;
@@ -192,7 +192,7 @@ a:hover {
 .ready .yuan2 {
   width: 5px;
   height: 5px;
-  border-radious: 50%;
+  border-radius: 50%;
   background: #dedede;
   position: absolute;
   top: -3px;
