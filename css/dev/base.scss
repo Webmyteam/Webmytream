@@ -55,10 +55,11 @@ img{
 	margin:auto;
 }
 /*yuan的混合宏*/
-@mixin yuan($w){
+@mixin yuan($w,$bg){
 	width:$w;
 	height:$w;
 	border-radious:50%;
+	background:$bg;
 }
 /*带参数左右浮动的混合宏*/
 @mixin float($f){
