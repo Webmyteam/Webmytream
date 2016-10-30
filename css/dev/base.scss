@@ -58,7 +58,7 @@ img{
 @mixin yuan($w,$bg){
 	width:$w;
 	height:$w;
-	border-radious:50%;
+	border-radius:50%;
 	background:$bg;
 }
 /*带参数左右浮动的混合宏*/

@@ -1,0 +1,28 @@
+@import 'base';
+#cedao{
+	width:67px;
+	height:988px;
+	background:rgba(12,43,56,0.9);
+	position:fixed;
+	right:0;
+	top:0;
+	& .photo{
+	width:66px;
+	height:106px;
+	margin-top:55px;
+	}
+}
+#cedao ul{
+    margin-top:50px;
+	width:100%;
+	height:100%;
+	& a{
+	display:block;
+	width:43px;
+	height:43px;
+	background:url($img-path+"/celan/home.png");
+	
+	@include center;
+
+	}
+	}
