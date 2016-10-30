@@ -54,3 +54,54 @@ a:hover {
 }
 
 /*font line-height的混合宏*/
+#cedao {
+  width: 67px;
+  height: 988px;
+  background: rgba(12, 43, 56, 0.9);
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+#cedao .photo {
+  width: 66px;
+  height: 106px;
+  margin-top: 55px;
+}
+
+#cedao ul {
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+#cedao ul li {
+  padding-left: 15px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#cedao ul li:nth-of-type(1) {
+  position: relative;
+}
+
+#cedao ul li:nth-of-type(1) span {
+  position: absolute;
+  top: 0;
+  left: -100px;
+  display: none;
+}
+
+#cedao ul li:nth-of-type(1):hover span {
+  display: block;
+}
+
+#cedao ul li:nth-last-child(2) {
+  margin-top: 50px;
+}
+
+#cedao ul li:last-child {
+  margin-top: 30px;
+}

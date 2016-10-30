@@ -1,5 +1,9 @@
 /*inner-width*/
 $inner-width:1200px;
+$margin:0px auto;
+/*myresume中的颜色*/
+$myresume-zp-bgcolor:#34a3fd;
+$myresume-zp-fontcolor:#aeaeae;
 $fontSize:12px;
 $headings:(h1:2em,h2:1.5em,h3:1.2em);
 @each $header,$size in $headings{
@@ -27,9 +31,6 @@ a{
 img{
     border:none;
 }
-/*myresume中的颜色*/
-$myresume-zp-bgcolor:#34a3fd;
-$myresume-zp-fontcolor:#aeaeae;
 /*上下左右居中的混合宏*/
 @mixin center{
 	position:absolute;
@@ -54,10 +55,11 @@ $myresume-zp-fontcolor:#aeaeae;
 	margin:auto;
 }
 /*yuan的混合宏*/
-@mixin yuan($w){
+@mixin yuan($w,$bg){
 	width:$w;
 	height:$w;
-	border-radious:50%;
+	border-radius:50%;
+	background:$bg;
 }
 /*带参数左右浮动的混合宏*/
 @mixin float($f){
