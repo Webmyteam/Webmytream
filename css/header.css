@@ -177,6 +177,7 @@ a:hover {
   border-radius: 19px;
   margin-top: 53px;
   position: relative;
+  overflow: hidden;
 }
 
 .header .head-center .head-right .circle-right {
@@ -208,4 +209,11 @@ a:hover {
   background-repeat: no-repeat;
   background-position: 0px 0px;
   margin-top: 3px;
+}
+
+.banner {
+  width: 1100px;
+  height: 561px;
+  margin: 0px auto;
+  background: #ffcd1f;
 }

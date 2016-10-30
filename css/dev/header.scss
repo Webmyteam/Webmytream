@@ -105,7 +105,7 @@ $inline-block:inline-block;
             border-radius:19px;
             margin-top:53px;
             position:relative;
-//          overflow:hidden;
+            overflow:hidden;
             .circle-right{
                 width:36px;
                 height:22px;
@@ -133,4 +133,10 @@ $inline-block:inline-block;
             }
         }
     }
+}
+.banner{
+    width:1100px;
+    height:561px;
+    margin:$margin;
+    background:#ffcd1f;
 }
