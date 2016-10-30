@@ -1,0 +1,26 @@
+/*inner-width*/
+* {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+.banner {
+  width: 1200px;
+  height: 470px;
+}
+
+.banner .bannerleft {
+  width: 360px;
+  height: 470px;
+}

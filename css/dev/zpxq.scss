@@ -1,0 +1,10 @@
+@import "base";
+$ban-height:470px;
+.banner{
+    width:$inner-width;
+    height:470px;
+    .bannerleft{
+        width:360px;
+        height:$ban-height;
+    }
+}
