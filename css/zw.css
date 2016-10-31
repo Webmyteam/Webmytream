@@ -98,7 +98,9 @@ body {
 #head {
   width: 100%;
   height: 835px;
+  background: url("../images/comlist/banner.png");
   background-size: 100% 835px;
+  background-color: rgba(33, 90, 107, 0.91);
   opacity: .75;
   z-index: 0;
 }
@@ -247,13 +249,33 @@ body {
   margin-top: 3px;
 }
 
-.Dbanner {
-  width: 100%;
-  height: auto;
+.Dbxt {
+  width: 900px;
+  height: 150px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 666;
 }
 
-.Dbanner img {
-  width: 100%;
+.Dbxt .Dct0 {
+  width: 900px;
+  position: absolute;
+  left: 0;
+  top: -100px;
+}
+
+.Dct1 {
+  width: 895px;
+  position: absolute;
+  left: 0;
+  top: -80px;
+}
+
+.Dct2 {
+  width: 800px;
+  position: absolute;
+  left: 50px;
+  top: -25px;
 }
 
 /*搜索*/
