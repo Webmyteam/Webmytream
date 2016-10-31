@@ -1,0 +1,301 @@
+@charset "UTF-8";
+/*inner-width*/
+/*myresume中的颜色*/
+@import url("base.css");
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #666;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+/*上下左右居中的混合宏*/
+/*上下居中的混合宏*/
+/*左右居中的混合宏*/
+/*yuan的混合宏*/
+/*带参数左右浮动的混合宏*/
+/*div的混合宏*/
+/*box-shadow的混合宏*/
+/*image路径*/
+a {
+  color: #fff;
+  font-size: 12px;
+}
+
+a:hover {
+  color: #c00;
+}
+
+/*font line-height的混合宏*/
+/*banner*/
+.banner {
+  width: 1000px;
+  height: 653px;
+  margin: 0px auto;
+  background: transparent;
+  margin-top: 38px;
+  position: relative;
+}
+
+.banner .banner-img {
+  position: relative;
+  z-index: 10;
+}
+
+.banner .banner-img .ban-img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.banner .banner-img a {
+  display: block;
+  width: 100%;
+  height: 653px;
+}
+
+.banner .banner-img a img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner .bg-dibu {
+  width: 150px;
+  height: 500px;
+  background: #167868;
+  position: absolute;
+  bottom: 46px;
+  right: -73px;
+  opacity: .9;
+}
+
+.banner .Circle {
+  width: 120px;
+  height: 241px;
+  background: url("../images/comlist/bg-yellow.png");
+  z-index: 5px;
+  position: absolute;
+  right: -110px;
+  bottom: 90px;
+}
+
+.banner .Circle ul {
+  width: 15px;
+  height: 120px;
+  margin: 38px 0px 0px 36px;
+  text-align: right;
+}
+
+.banner .Circle ul .circle {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #fff;
+}
+
+.banner .Circle ul .first {
+  background: none;
+}
+
+.banner .btn {
+  width: 100px;
+  height: 37px;
+  background: #fff;
+  position: absolute;
+  right: -80px;
+  bottom: 120px;
+  border-radius: 20px;
+  text-align: right;
+}
+
+.banner .btn .gt {
+  font-size: 24px;
+  font-family: simsun;
+  line-height: 37px;
+  float: right;
+  font-weight: 600;
+  color: #ffcd1f;
+}
+
+.banner .btn .pre {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.z-bj-xiao {
+  width: 65px;
+  height: 65px;
+  background: #ffcd1f;
+  opacity: .5;
+  position: absolute;
+  left: 66px;
+  bottom: 222px;
+  z-index: 12;
+}
+
+.z-bj-da {
+  width: 120px;
+  height: 120px;
+  background: #ffcd1f;
+  opacity: .5;
+  position: absolute;
+  left: 96px;
+  bottom: 136px;
+  z-index: 12;
+}
+
+.mode {
+  width: 590px;
+  height: 200px;
+  background: #0FC8F0;
+  position: absolute;
+  left: 90px;
+  bottom: 30px;
+  z-index: 12;
+}
+
+.mode-ks {
+  width: 900px;
+  height: 199px;
+  background: transparent;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+  background: url("../images/comlist/bg-ss.png");
+  position: absolute;
+  left: 223px;
+  bottom: -92px;
+  z-index: 33;
+}
+
+/*head End*/
+/*center*/
+.center {
+  width: 1200px;
+  height: auto;
+  background: transparent;
+  margin: 130px auto 30px;
+  overflow: hidden;
+}
+
+.center .center-left {
+  width: 580px;
+  height: 194px;
+  background: transparent;
+  background: url("../images/comlist/huang.png");
+  float: left;
+  margin-right: 39px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+
+.center .center-right {
+  width: 580px;
+  height: 194px;
+  background: transparent;
+  background: url("../images/comlist/lv.png");
+  float: left;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+
+/*positions*/
+.Positions {
+  margin: 49px auto 12px;
+}
+
+.positions {
+  width: 1200px;
+  height: 219px;
+  background: transparent;
+}
+
+.positions .po-img {
+  width: 133px;
+  height: 133px;
+  background: url("../images/comlist/b_17.png");
+  margin: 43px 30px 0px 75px;
+  position: absolute;
+  top: 0px;
+  border-radius: 50%;
+  border: 0px solid #DDDDDD;
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.positions .po-tub {
+  padding-left: 16px;
+  position: absolute;
+  left: 239px;
+  top: 0px;
+  margin-top: 46px;
+}
+
+.positions .po-tub li {
+  line-height: 1.5px;
+  margin: 26px auto 40px;
+  letter-spacing: 2px;
+}
+
+.positions .po-tub li a {
+  color: #B2B2B2;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.positions .po-tub li:nth-child(2) a {
+  color: #666;
+  font-weight: 600;
+}
+
+.positions .po-tub li span {
+  margin-left: 26px;
+  font-size: 14px;
+}
+
+.positions:nth-of-type(1) {
+  margin: 0px auto;
+  border-bottom: 1px solid #0fc6ee;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+  background: url("../images/comlist/bg-middle.png");
+}
+
+.positions:nth-of-type(2) {
+  margin: 12px auto 12px;
+  border-bottom: 1px solid #FBC74B;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+  background: url("../images/comlist/bg-middle.png");
+}
+
+.positions:nth-of-type(3) {
+  margin: 12px auto 12px;
+  border-bottom: 1px solid #0fc6ee;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+  background: url("../images/comlist/bg-middle.png");
+}

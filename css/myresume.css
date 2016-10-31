@@ -1,10 +1,31 @@
+@charset "UTF-8";
 /*inner-width*/
+/*myresume中的颜色*/
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
 * {
   margin: 0px;
   padding: 0px;
   position: relative;
   list-style-type: none;
   box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #666;
+  font-weight: 400;
 }
 
 a {
@@ -15,8 +36,591 @@ img {
   border: none;
 }
 
+/*上下左右居中的混合宏*/
+/*上下居中的混合宏*/
+/*左右居中的混合宏*/
+/*yuan的混合宏*/
+/*带参数左右浮动的混合宏*/
+/*div的混合宏*/
+/*box-shadow的混合宏*/
+/*image路径*/
+a {
+  color: #fff;
+  font-size: 12px;
+}
+
+a:hover {
+  color: #c00;
+}
+
+/*font line-height的混合宏*/
 .Bcontent {
   width: 1200px;
-  height: 400px;
-  background: blue;
+  height: auto;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 143px;
+  overflow: hidden;
+}
+
+.Bcontent > .hx {
+  width: 980px;
+  height: 1px;
+  background: #b9b9b9;
+  float: right;
+  margin-right: 5px;
+}
+
+.Bcontent > .zuopin {
+  width: 100%;
+  height: 40px;
+  float: left;
+}
+
+.Bcontent > .zuopin > .left {
+  float: left;
+  height: 100%;
+  width: 400px;
+  text-align: left;
+}
+
+.left img {
+  margin-top: 9px;
+  float: left;
+}
+
+.left span:first-of-type {
+  float: left;
+  font-size: 32px;
+  font-family: "微软雅黑";
+  color: #46b45b;
+  margin-top: 2px;
+}
+
+.left span {
+  float: left;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #727272;
+  margin-top: 21px;
+  font-weight: 500;
+}
+
+.mianbao {
+  float: right;
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+  color: #8d8d8d;
+  font-size: 12px;
+}
+
+.mianbao img {
+  float: left;
+  margin-top: 18px;
+}
+
+.mianbao a {
+  padding: 23px 5px 0;
+  line-height: 100%;
+  float: left;
+  color: #8d8d8d;
+}
+
+.mianbao a:first-of-type {
+  color: #35a2ff;
+  float: left;
+  line-height: 100%;
+  padding: 23px 5px 0;
+}
+
+.mianbao span {
+  line-height: 100%;
+  padding: 23px 5px 0;
+  float: left;
+  color: #8d8d8d;
+  font-family: "consolas";
+}
+
+.summary {
+  width: 1200px;
+  height: 160px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summary .left {
+  width: 200px;
+  height: auto;
+  float: left;
+  margin-top: 70px;
+  overflow: hidden;
+}
+
+.summary .right {
+  width: auto;
+  height: auto;
+  float: right;
+  margin-top: 62px;
+  overflow: hidden;
+}
+
+.ready {
+  position: relative;
+  width: 1200px;
+  height: 910px;
+  border-top: 1px dashed #dedede;
+  border-bottom: 1px dashed #dedede;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+
+.ready .yuan1 {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #dedede;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+}
+
+.ready .yuan2 {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #dedede;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+.ready .one {
+  width: 100%;
+  height: 360px;
+  float: left;
+}
+
+.ready .one .tu1 {
+  float: left;
+  width: auto;
+  height: auto;
+}
+
+.ready .one .word {
+  float: left;
+  width: auto;
+  height: auto;
+}
+
+.ready .one .word p {
+  width: 578px;
+  height: auto;
+  margin-top: 20px;
+  padding-left: 65px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #939393;
+}
+
+.ready .two {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 75px;
+}
+
+.ready .two .tu1 {
+  float: left;
+  width: auto;
+  height: auto;
+  margin-left: -10px;
+}
+
+.ready .two .tu2 {
+  float: left;
+  width: 820px;
+  height: 293px;
+  position: relative;
+}
+
+.ready .two .tu2 .video {
+  font-size: 22px;
+  margin-left: 20px;
+  background: transparent;
+  line-height: 40px;
+}
+
+.ready .two .tu2 #tu1 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.ready .two .tu2 .like {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: block;
+}
+
+#tu2 {
+  position: absolute;
+  left: 250px;
+  top: 60px;
+}
+
+#tu3 {
+  position: absolute;
+  right: -101px;
+  top: 100px;
+}
+
+.product {
+  width: 1200px;
+  height: 640px;
+  padding-left: 45px;
+  box-sizing: border-box;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  background: #f4f4f4;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product #tu4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.product .title {
+  float: left;
+  width: auto;
+  height: auto;
+}
+
+.product .box {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+.product .box .food {
+  width: auto;
+  height: auto;
+  float: left;
+}
+
+.product .box .list {
+  width: 930px;
+  height: auto;
+  float: left;
+  padding-left: 35px;
+}
+
+.product .box .list p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #a3a3a3;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.fanye {
+  width: 1200px;
+  height: 50px;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fanye a:nth-of-type(1) {
+  line-height: 50px;
+  color: #35a2ff;
+  font-size: 12px;
+  float: left;
+  font-family: "consolas";
+}
+
+.fanye a:nth-of-type(2) {
+  line-height: 50px;
+  color: #35a2ff;
+  font-size: 12px;
+  float: right;
+  font-family: "consolas";
+}
+
+.fanye span {
+  color: #c3c3c3;
+  line-height: 50px;
+}
+
+.tuijian {
+  width: 1200px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tuijian .title {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.tuijian .zuopin {
+  width: 33.333%;
+  height: auto;
+  padding-right: 30px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.tuijian .zuopin .bot {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.tuijian .zuopin .bot .pvideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.bot .zp {
+  font-size: 16px;
+  color: #666;
+  padding-left: 20px;
+  line-height: 44px;
+  font-weight: 500;
+}
+
+.bot .zp2 {
+  font-size: 12px;
+  color: #9a9899;
+  padding-left: 20px;
+  line-height: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.bot span {
+  float: left;
+  line-height: 22px;
+}
+
+.bot img {
+  float: left;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.bot .circle {
+  margin-top: 2px;
+}
+
+/* comment */
+.comment {
+  width: 1200px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comment .title {
+  width: auto;
+  height: auto;
+}
+
+.comment .review {
+  width: 100%;
+  height: auto;
+  margin-top: 65px;
+  position: relative;
+}
+
+.comment .review .hx {
+  width: 1140px;
+  height: 1px;
+  background: #f0f0f0;
+  margin-left: 30px;
+}
+
+.comment .review #fabu {
+  position: absolute;
+  left: 46px;
+  top: -37px;
+}
+
+.comment .review .shengyu {
+  position: absolute;
+  right: 50px;
+  top: 25px;
+}
+
+.comment .review .text {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.comment .review .text img {
+  margin-left: 50px;
+  float: left;
+  margin-right: 20px;
+}
+
+.comment .review .text .textarea {
+  width: 1020px;
+  height: 185px;
+  box-sizing: border-box;
+  border: 1px solid #dedede;
+  float: left;
+  border-radius: 8px;
+  padding-left: 25px;
+  padding-top: 25px;
+  color: #000;
+  font-size: 14px;
+}
+
+.comment .review .text .select {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #5ddda0;
+  float: left;
+  margin-left: 165px;
+  margin-top: 20px;
+}
+
+.comment .review .text span {
+  float: left;
+  margin-left: 10px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.comment .review .text .reset {
+  float: right;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.comment .review .text .submit {
+  float: right;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.send {
+  width: 1190px;
+  height: 1100px;
+  padding-left: 10px;
+  margin-top: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.send .about {
+  position: absolute;
+  top: -33px;
+  left: 30px;
+}
+
+.send .name {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-top: 1px solid #dfdfdf;
+}
+
+.send .name .send-img {
+  margin-left: 30px;
+  margin-top: 50px;
+  float: left;
+}
+
+.send .name p:nth-of-type(1) {
+  float: left;
+  font-size: 14px;
+  color: #3e3e3e;
+  margin-top: 50px;
+  margin-left: 44px;
+}
+
+.send .name p:nth-of-type(1) i {
+  font-size: 12px;
+  color: #727272;
+  font-style: normal;
+}
+
+.send .name p:nth-of-type(2) {
+  width: auto;
+  font-size: 14px;
+  color: #3e3e3e;
+  margin-top: 90px;
+  margin-left: 160px;
+  letter-spacing: 0.08em;
+}
+
+.send .name p:nth-of-type(2) i {
+  font-size: 12px;
+  color: #727272;
+  font-style: normal;
+}
+
+.send .name a {
+  float: right;
+  color: #35a2ff;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.send .name .like {
+  float: right;
+  margin-right: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.send .name span {
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.send .name .yinyong {
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.send .name .content {
+  width: 470px;
+  height: 85px;
+  display: block;
+  margin-left: 150px;
+  margin-top: 50px;
+  border: 1px solid #dedede;
+  padding-top: 10px;
+  color: #e2e2e2;
+  border-radius: 5px;
+}
+
+#name {
+  float: left;
+  margin-top: 0;
+  color: #3e3e3e;
 }

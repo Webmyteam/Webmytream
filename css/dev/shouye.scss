@@ -1,0 +1,420 @@
+/*inner-width*/
+@import 'base';
+$inner-width:1200px;
+
+*{
+    margin:0px;
+    padding:0px;
+    position:relative;
+    list-style-type:none;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+}
+img{
+    border:none;
+}
+.center{
+    width: 100%;
+    height:1039px;
+    background:#F4F4F4;
+    .nei{
+        width:1200px;  
+        height:100%;  
+        margin:0 auto; 
+        background: #fff;   
+    .centerh{
+        width:460px;
+        height: 175px;      
+        span{
+            display: block;
+            margin-left:174px;
+            line-height:175px;      
+          }
+     a{
+      display: block;
+      width:86px;
+      height: 86px;
+      position:absolute;
+      right:80px;
+      top:58px;
+      
+    }
+     }
+     .nc{
+       width: 100%;
+       height: 32px;
+        .ni{
+           width:260px;
+           height: 100%;
+           float: left;
+         }
+        .ni a{
+            display: block;
+            line-height:32px;
+            margin-left: 175px;
+        }
+       
+       .input1{
+          width: 180px;
+          height:32px;
+          float:left;
+       }
+       .xb{
+          width: 129px;
+          height:100%;
+          float:left;
+          }
+        .xb a{
+           display: block;
+            width: 129px;
+            height:100%;
+           text-align: center;
+           line-height:32px;
+        }
+       .mn{
+         width:63px;
+         height:32px;
+         border-radius:10%;
+         padding-left:15px;
+         float:left;           
+         }
+        .nl{
+          width: 143px;
+          height:100%;
+          float:left;  
+        }
+        .nl a{
+           display: block;
+            width:143px;
+           height:100%;
+           text-align: center;
+           line-height:32px;
+        }
+      .sui{
+         width:63px;
+         height:32px;
+         border-radius:10%;
+         padding-left:15px;
+         float:left;          
+         }
+     }   
+       .qm{
+           width:260px;
+           height: 32px;
+           float: left;
+           margin-top:33px;
+           }
+        .qm a{
+            display: block;
+            line-height:32px;
+            margin-left: 175px;
+        }
+       .kk{
+          width:420px;
+          height:70px;
+          border:1px solid #ccc;
+          border-radius:3%;
+          float:left;
+          margin-top:30px;
+          margin-bottom:60px;
+          
+       }
+     .tt{
+        width:100%;
+        height:32px;     
+        float: left;
+          .true{
+           width:260px;
+           height: 100%;       
+           float: left;
+         }
+        .true a{
+            display: block;
+            line-height:32px;
+            margin-left: 175px;
+        }
+      .input2{
+          width: 180px;
+          height:32px;
+          float:left;
+         }
+         .sf{width: 129px;
+          height:100%;
+          float:left;
+          }
+        .sf a{
+            display: block;
+            width: 129px;
+            height:100%;
+            text-align: center;
+            line-height:32px;
+        }
+        .jz{
+         width:372px;
+         height:32px;
+         border-radius:3%;
+         padding-left:15px;
+         float:left;           
+         }
+     }
+     .qz{
+        width:100%;
+        height:32px;       
+        margin-top:20px;
+        float: left;
+         .true1{
+           width:260px;
+           height: 100%;
+           float: left;
+         }
+        .true1 a{
+            display: block;
+            line-height:32px;
+            margin-left: 175px;
+        }
+        .jh{
+            width: 134px;
+            height: 32px;
+            border-radius:3%;
+            padding-left:14px;
+            float:left;           
+        }
+        .qz1{width: 129px;
+          height:100%;
+          float:left;
+          }
+        .qz1 a{
+            display: block;
+            width: 129px;
+            height:100%;
+            text-align: center;
+            line-height:32px;
+        }
+         .sx{
+         width:91px;
+         height:32px;
+         border-radius:4%;
+         padding-left:15px;
+         float:left;           
+         }
+         .ty{
+         width:91px;
+         height:32px;
+         border-radius:4%;
+         padding-left:15px;
+         float:left;           
+         }
+        }
+    .mb{
+        width:100%;
+        height:32px;      
+        margin-top:25px;
+        float: left;
+         .true2{
+           width:260px;
+           height: 100%;
+           float: left;
+         }
+        .true2 a{
+            display: block;
+            line-height:32px;
+            margin-left: 175px;
+        }
+         .mony{
+            width: 134px;
+            height: 32px;
+            border-radius:3%;
+            padding-left:14px;
+            float:left;           
+        }
+    }
+    .sh{
+        width:100%;
+        height:32px;       
+        margin-top:25px;
+        float: left;
+           .true3{
+           width:260px;
+           height: 100%; 
+           float: left;
+         }
+        .true3 a{
+            display: block;
+            line-height:32px;
+            margin-left: 175px;
+        }
+        .input3{
+          width: 180px;
+          height:32px;
+          float:left;
+         }
+        .simg img{
+           width:99px;
+           height: 32px;      
+           float: left;
+           margin-left:30px;
+        }
+        }
+     .yx{
+        width:100%;
+        height:32px;     
+        margin-top:25px;
+        margin-bottom: 64px;
+        float: left;
+           .true4{
+           width:260px;
+           height: 100%;       
+           float: left;
+         }
+        .true4 a{
+            display: block;
+            line-height:32px;
+            margin-left: 175px;
+        }
+         .input4{
+          width: 180px;
+          height:32px;
+          float:left;
+         }
+        .simg1 img{
+           width:99px;
+           height: 32px;
+           float: left;
+           margin-left:30px;
+        }
+         }
+      .by{
+        width:100%;
+        height:32px;     
+        margin-top:25px;      
+        float: left;
+           .true5{
+           width:260px;
+           height: 100%;       
+           float: left;
+         }
+        .true5 a{
+            display: block;
+            line-height:32px;
+            margin-left: 175px;
+        }
+         .input4{
+          width: 180px;
+          height:32px;
+          float:left;
+         }
+         .zy{
+          width: 129px;
+          height:100%;
+          float:left;
+          }
+        .zy a{
+           display: block;
+            width: 129px;
+            height:100%;
+           text-align: center;
+           line-height:32px;
+        }
+         .input5{
+          width: 180px;
+          height:32px;
+          float:left;
+         }
+        }
+     .sj{
+        width:100%;
+        height:32px;     
+        margin-top:25px;      
+        float: left;
+       .true6{
+       width:260px;
+       height: 100%;       
+       float: left;
+            }
+        .true6 a{
+            display: block;
+            line-height:32px;
+            margin-left: 175px;
+        }
+         .mnn{
+            width: 134px;
+            height: 32px;
+            border-radius:3%;
+            padding-left:14px;
+            float:left;           
+        }
+         .xl{
+          width: 129px;
+          height:100%;
+          float:left;
+          }
+        .xl a{
+           display: block;
+            width: 129px;
+            height:100%;
+           text-align: center;
+           line-height:32px;
+        }
+         .gz{
+            width: 123px;
+            height: 32px;
+            border-radius:3%;
+            padding-left:14px;
+            float:left;           
+        }
+        }
+    .gj{
+        width:100%;
+        height:32px;     
+        margin-top:25px;      
+        float: left;
+        margin-bottom: 81px;
+           .true7{
+       width:260px;
+       height: 100%;       
+       float: left;
+            }
+        .true7 a{
+            display: block;
+            line-height:32px;
+            margin-left: 175px;
+        }
+         .yj{
+            width: 123px;
+            height: 32px;
+            border-radius:3%;
+            padding-left:14px;
+            float:left;           
+        }
+        }
+  .jj{
+    width:100%;
+    height:43px;       
+    float: left;  
+    .jj1{
+       width:50%;
+       height:43px;       
+       float: left; 
+    }
+    .jj1 a{
+        display: block;
+        margin-left:413px;
+    }
+    .jj2{
+       width:50%;
+       height:43px;       
+       float:right;
+    }
+    .jj2 a{
+        display: block;
+        margin-left:40px;
+    }
+   }   
+}
+ a{
+     color:#8E8E8E;
+     font-size:14px;
+ }
+}

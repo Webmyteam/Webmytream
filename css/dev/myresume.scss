@@ -1,6 +1,495 @@
 @import "base";
+$Bcolor:#46b45b;
+$Bcolor2:#35a2ff;
+$Bcolor3:#dedede;
+@mixin margin{
+    margin-left: auto;
+    margin-right: auto;
+}
 .Bcontent{
     width: $inner-width;
-    height: 400px;
-    background: blue;
+    height: auto;
+    background: #fff;
+    margin: {
+        left:auto;
+        right:auto;
+        top:143px;
+    };
+    overflow:hidden;
+    &>.hx{
+        width: 980px;
+        height: 1px;
+        background: #b9b9b9;
+        float:right;
+        margin-right: 5px;
+    }
+    &>.zuopin{
+        width: 100%;
+        height: 40px;
+        float: left;
+        &>.left{
+            float:left;
+            height: 100%;
+            width: 400px;
+            text-align: left;
+            
+        }
+    }
+    
+}
+.left img{
+    margin-top: 9px;
+    float: left;
+}
+.left span:first-of-type{
+    float: left;
+    font-size: 32px;
+    font-family: "微软雅黑";
+    color: $Bcolor;
+    margin-top: 2px;
+}
+.left span{
+    float: left;
+    font-family: "微软雅黑";
+   font-size: 14px;
+   color:#727272;
+   margin-top: 21px;
+   font-weight: 500;
+}
+.mianbao{
+    float:right;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    color: #8d8d8d;
+    font-size: 12px;
+    img{
+      float:left;      
+      margin-top:18px;
+    }
+   a{
+        padding:23px 5px 0;
+        line-height:100%;
+         float:left;  
+         color: #8d8d8d;   
+    }
+    a:first-of-type{
+        color:$Bcolor2;
+        float:left;
+        line-height:100%;
+        padding:23px 5px 0;
+    }
+    span{
+        line-height:100%;
+        padding:23px 5px 0;
+        float:left; 
+        color: #8d8d8d; 
+        font-family: "consolas";   
+       
+    }
+}
+.summary{
+    width: $inner-width;
+    height: 160px;
+    margin: {
+        top:50px;
+        left: auto;
+        right: auto;
+    };
+    .left{
+        width: 200px;
+        height:auto;
+        float: left;
+        margin-top: 70px;
+        overflow: hidden;
+    }
+    .right{
+        width: auto;
+        height: auto;
+        float: right;
+        margin-top: 62px;
+        overflow: hidden;
+    }
+}
+.ready{
+    position: relative;
+    width: $inner-width;
+    height: 910px;
+    border-top:1px dashed #dedede;
+    border-bottom:1px dashed #dedede;
+    @include margin;
+    padding: 40px 0;
+    box-sizing: border-box;
+    .yuan1{
+        @include yuan(5px,$Bcolor3);
+        position: absolute;
+        top:-3px;
+        left: -3px;
+    }
+    .yuan2{
+        @include yuan(5px,$Bcolor3);
+        position: absolute;
+        top:-3px;
+        right: -3px;
+    }
+    .one{
+        width: 100%;
+        height: 360px;
+        float: left;
+        .tu1{
+            float: left;
+            width: auto;
+            height: auto;
+        }
+        .word{
+            float: left;
+            width: auto;
+            height: auto;
+            p{
+                width: 578px;
+                height: auto;
+                margin-top: 20px;
+                padding-left: 65px;
+                box-sizing: border-box;
+                font-size: 12px;
+                color: #939393;
+            }
+        }
+    }
+    .two{
+        float: left;
+        width: 100%;
+        height: auto;
+        margin-top: 75px;
+        .tu1{
+            float: left;
+            width: auto;
+            height: auto;
+            margin-left: -10px;
+        }
+        .tu2{
+            float: left;
+            width: 820px;
+            height: 293px;
+            position: relative;
+            .video,{
+                font-size: 22px;
+                margin-left: 20px;
+                background: transparent;
+                line-height: 40px;
+            }
+            #tu1{
+                margin-left: 20px;
+                margin-top: 10px;
+            }
+            .like{
+                margin-top: 20px;
+                margin-left: 20px;
+                display: block;
+            }
+        }
+    }
+}
+#tu2{
+    position: absolute;
+    left: 250px;
+    top:60px;
+}
+#tu3{
+    position: absolute;
+    right: -101px;
+    top:100px;
+}
+.product{
+    width: $inner-width;
+    height: 640px;
+    padding-left: 45px;
+    box-sizing: border-box;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background: #f4f4f4;
+    position: relative;
+    @include margin;
+    #tu4{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .title{
+        float: left;
+        width: auto;
+        height: auto;
+    }
+    .box{
+        float: left;
+        width: 100%;
+        height: auto;
+        .food{
+            width: auto;
+            height: auto;
+            float: left;
+        }
+        .list{
+            width: 930px;
+            height: auto;
+            float: left;
+            padding-left: 35px;
+            p{
+                font-size: 12px;
+                line-height: 18px;
+                color:#a3a3a3;
+                margin-top: 10px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}
+.fanye{
+    width:$inner-width;
+    height:50px;
+    border-top:1px solid  $Bcolor3;
+    border-bottom:1px solid  $Bcolor3;
+    @include margin;
+    a:nth-of-type(1){
+        line-height: 50px;
+        color:$Bcolor2;
+        font-size: 12px;
+        float: left;
+        font-family: "consolas";
+    }
+     a:nth-of-type(2){
+        line-height: 50px;
+        color:$Bcolor2;
+        font-size: 12px;
+        float: right;
+        font-family: "consolas";
+    }
+    span{
+         color:#c3c3c3;
+         line-height: 50px;
+    }
+}
+.tuijian{
+    width: $inner-width;
+    height: 500px;
+    @include margin;
+    .title{
+        float: left;
+        width:100%;
+        height:auto;
+        margin-top: 20px;
+    }
+    .zuopin{
+        width: 33.333%;
+        height: auto;
+        padding-right: 30px;
+        float: left;
+        box-sizing: border-box;
+        .bot{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            position: relative;
+            .pvideo{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
+        }
+    }
+}
+.bot .zp{
+    font-size: 16px;
+    color:#666;
+    padding-left: 20px;
+    line-height: 44px;
+    font-weight:500;
+}
+.bot .zp2{
+    font-size: 12px;
+    color:#9a9899;
+    padding-left: 20px;
+    line-height: 18px;
+    font-weight:500;
+    margin-bottom: 5px;
+}
+.bot span{
+    float: left;
+    line-height: 22px;
+}
+.bot img{
+    float: left;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.bot .circle{
+    margin-top: 2px;
+}
+/* comment */
+.comment{
+    width: $inner-width;
+    height: 450px;
+    @include margin;
+    .title{
+        width: auto;
+        height: auto;
+    }
+    .review{
+        width: 100%;
+        height: auto;
+        margin-top: 65px;
+        position: relative;
+        .hx{
+        width: 1140px;
+        height: 1px;
+        background: #f0f0f0;
+       margin-left: 30px;
+        }
+        #fabu{
+            position: absolute;
+            left:46px;
+            top:-37px;
+        }
+        .shengyu{
+            position: absolute;
+            right: 50px;
+            top:25px;
+        }
+        .text{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            margin-top: 50px;
+            img{
+                 margin-left: 50px;
+                 float: left;
+                 margin-right: 20px;
+            }
+            .textarea{
+                width: 1020px;
+                height: 185px;
+                box-sizing: border-box;
+                border: 1px solid $Bcolor3;
+                float: left;
+                border-radius:8px ;
+                padding-left:25px;
+                padding-top: 25px;
+                color:#000;
+                font-size: 14px;
+            }
+            .select{
+               @include yuan(30px,#5ddda0);
+               float: left;
+               margin-left: 165px;
+               margin-top: 20px;
+            }
+            span{
+                float: left;
+                margin-left: 10px;
+                margin-top: 24px;
+                cursor: pointer;
+            }
+            .reset{
+                float: right;
+                margin-top: 20px;
+                cursor: pointer;
+            }
+            .submit{
+                float: right;
+                margin-top: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.send{
+    width: 1190px;
+    height:1100px;
+    padding-left:10px ;
+    margin-top: 60px;
+    position: relative;
+    @include margin;
+    .about{
+    position: absolute;
+    top:-33px;
+    left: 30px;
+    }
+    .name{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-top:1px solid #dfdfdf;
+    .send-img{
+    margin-left: 30px;
+    margin-top: 50px;
+    float: left;
+     }
+     p:nth-of-type(1){
+        
+        float: left;
+        font-size: 14px;
+        color:#3e3e3e;
+        margin-top: 50px;
+        margin-left: 44px;
+        i{
+        font-size: 12px;
+        color:#727272;
+        font-style: normal;
+        }
+     }
+      p:nth-of-type(2){
+        
+        width: auto;
+        font-size: 14px;
+        color:#3e3e3e;
+        margin-top: 90px;
+        margin-left: 160px;
+        letter-spacing: 0.08em;
+        i{
+        font-size: 12px;
+        color:#727272;
+        font-style: normal;
+        }
+     }
+    }
+}
+.send .name a{
+    float: right;
+    color:$Bcolor2;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.send .name .like{
+    float: right;
+    margin-right: 5px;
+    margin-top: 30px;
+     margin-bottom: 30px;
+}
+.send .name span{
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+     margin-bottom: 30px;
+}
+.send .name .yinyong{
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.send .name .content{
+    width: 470px;
+    height: 85px;
+    display: block;
+    margin-left: 150px;
+    margin-top: 50px;
+    border:1px solid #dedede;
+    padding-top: 10px;
+    color: #e2e2e2;
+    border-radius: 5px;
+}
+#name{
+float: left;
+margin-top: 0;
+color: #3e3e3e;
 }

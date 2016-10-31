@@ -1,0 +1,141 @@
+@import "base";
+@import url("base.css");
+$ow:100%;
+$inline-block:inline-block;
+//定义变量
+//$linkColor:#fff #c00;   //第一个为默认值，第二个是鼠标滑过的值
+/*header*/
+#head{
+    width:$ow;
+    height:835px;
+    background:url($img-path+"/comlist/banner.png");
+    background-size:100% 835px;
+    background-color:rgba(33,90,107,.91);
+    opacity:.75;
+    z-index:0;
+}
+.header{
+    width:$ow;
+    height:144px;
+    background:#0C4F69;
+    background-color:rgba(33,90,107,.91);
+    overflow:hidden;
+    .head-center{
+        width:$inner-width;
+        height:100%;
+        background:transparent;
+        margin:$margin;
+        z-index:10;
+        li{
+            float:left;
+        }
+        .logo{
+            width:76px;
+            height:100%;
+            padding:10px;
+            background:url($img-path+"/footer/logo.png");
+            background-position:center center;
+            background-repeat:no-repeat;
+            margin:0px 0px 10px 15px;
+        }
+        .head-nav{
+            height:100%;
+            line-height:100%;
+            padding:15px;
+            margin:0px 15px 0px 15px;
+            .nav{
+                margin-top:28px;
+                li{
+                    width:143px;
+                    height:auto;
+                    float:left;
+                    border-right:1px dashed #ccc;
+                    line-height:1.5;
+                    text-transform:capitalize;
+                    margin:5px 10px 6px 15px;
+                    a{
+                        display:block;
+                        font-size:14px;
+                        .top-title{
+                            color:#bdbebe;
+                        }
+                        .line{
+                            position:relative;
+                            width:69px;
+                            border:1px solid #707577;
+                            margin:5px 0px;
+                            .color{
+                                position:absolute;
+                                width:15px;
+                                border:1px solid #ffcd1f;
+                                top:-1px;
+                                right:0px;
+                            }
+                        }
+                        .bottom-title{
+                            color:#fff;
+                            letter-spacing:2px;
+                        }
+                    }
+                }
+            }
+            .circle-nav{
+                width:60px;
+                margin-left:15px;
+                .first{
+                    display:$inline-block;
+                    width:33px;
+                    height:5px;
+                    background:#FFCD1F;
+                    margin:2px 0px;
+                    border-radius:5px;
+                }
+                .last{
+                    display:$inline-block;
+                    @include yuan(6px,#ffcd1f);
+                    margin:2px 0px 2px 3px;
+                }
+            }
+        }
+        .head-right{
+            width:360px;
+            height:41px;
+            border:1px solid #b6c6ce;
+            border-radius:19px;
+            margin-top:53px;
+            position:relative;
+            overflow:hidden;
+            .circle-right{
+                width:36px;
+                height:22px;
+                float:left;
+                line-height:41px;
+                margin:9px 0px 6px 6px;
+                border-right:1px solid #7596a6;
+                .last{
+                    display:$inline-block;
+                    @include yuan(6px,#ffcd1f);
+                    position:absolute;
+                    left:5px;
+                    top:9px;
+                }
+            }
+            .head-xz{
+                display:block;
+                width:75px;
+                height:36px;
+                float:right;
+                background:url($img-path+"/comlist/an-xz.png");
+                background-repeat:no-repeat;
+                background-position:0px 0px;
+                margin-top:3px;
+            }
+        }
+    }
+}
+.banner{
+    width:1100px;
+    height:561px;
+    margin:$margin;
+    background:#ffcd1f;
+}
