@@ -130,8 +130,6 @@ body {
             font-size: 14px;
             color: #a5a5a5;
             line-height: 26px; }
-          .dat-top .dat-l .dat-l-t .dat-l-t-2 ul li a:hover {
-            color: red; }
       .dat-top .dat-l .dat-l-t .dat-a {
         width: 490px;
         height: 100px;
@@ -158,8 +156,6 @@ body {
             margin-left: 10px;
             color: #aaa;
             line-height: 54px; }
-          .dat-top .dat-l .dat-l-t .dat-a .dat-b a:hover {
-            color: red; }
         .dat-top .dat-l .dat-l-t .dat-a .dat-c {
           width: 160px;
           height: 54px;
@@ -205,16 +201,11 @@ body {
         .dat-top .dat-l .dat-l-c ul li span {
           display: block;
           width: 200px;
-          height: 35px;
+          height: 25px;
           font-size: 25px;
           color: #45b45a;
-          padding-left: 58px;
-          margin: 20px 0;
-          background: url("../images/gongsi/x_44.png") left no-repeat;
-          background-position: 20px 6px; }
-        .dat-top .dat-l .dat-l-c ul li .dat-spa {
-          background: url("../images/gongsi/x_56.png") left no-repeat;
-          background-position: 20px 6px; }
+          padding-left: 40px;
+          margin: 20px 0; }
         .dat-top .dat-l .dat-l-c ul li p {
           width: 800px;
           font-size: 12px;
@@ -226,8 +217,6 @@ body {
           margin-bottom: 5px;
           color: #10C8F0;
           font-size: 14px; }
-        .dat-top .dat-l .dat-l-c ul li a:hover {
-          color: red; }
       .dat-top .dat-l .dat-l-c ul li:nth-of-type(2) {
         height: 725px; }
         .dat-top .dat-l .dat-l-c ul li:nth-of-type(2) img:nth-of-type(1) {
@@ -237,41 +226,22 @@ body {
       .dat-top .dat-l .dat-l-c ul li:nth-last-of-type(4) {
         height: 140px; }
     .dat-top .dat-l .dat-l-b {
-      width: 870px;
+      width: 100%;
       height: 800px;
       margin-top: 80px; }
       .dat-top .dat-l .dat-l-b span {
         display: block;
         width: 200px;
-        height: 35px;
+        height: 25px;
         font-size: 25px;
         color: #45b45a;
-        padding-left: 58px;
-        margin: 20px 0;
-        background: url("../images/gongsi/x_59.png") left no-repeat;
-        background-position: 20px 6px; }
+        padding-left: 40px;
+        margin: 20px 0; }
       .dat-top .dat-l .dat-l-b ul li {
         width: 100%;
         height: 175px;
         border-top: 1px solid #b5b5b5;
         position: relative; }
-        .dat-top .dat-l .dat-l-b ul li .dat-ff {
-          width: 30px;
-          height: 20px;
-          background: #f4f4f4;
-          position: absolute;
-          right: 25px;
-          top: -10px; }
-          .dat-top .dat-l .dat-l-b ul li .dat-ff span {
-            background: none;
-            width: 30px;
-            height: 20px;
-            padding: 0;
-            margin: 0;
-            font-size: 14px;
-            text-align: center;
-            color: #155c85;
-            font-weight: bold; }
         .dat-top .dat-l .dat-l-b ul li .dat-b-l {
           width: 300px;
           float: left; }
@@ -314,36 +284,34 @@ body {
           .dat-top .dat-l .dat-l-b ul li .dat-b-r p {
             margin-top: 35px; }
           .dat-top .dat-l .dat-l-b ul li .dat-b-r .dat-bol {
-            width: 250px;
+            width: 270px;
             float: left; }
             .dat-top .dat-l .dat-l-b ul li .dat-b-r .dat-bol img {
               float: left;
               padding-right: 3px;
-              margin-top: 30px; }
+              margin-top: 20px; }
             .dat-top .dat-l .dat-l-b ul li .dat-b-r .dat-bol p {
               display: inline-block;
               width: 200px;
               float: left;
-              margin-top: 30px; }
+              margin-top: 20px; }
           .dat-top .dat-l .dat-l-b ul li .dat-b-r .dat-bor {
-            width: 250px;
-            float: left; }
+            width: 200px;
+            float: right; }
             .dat-top .dat-l .dat-l-b ul li .dat-b-r .dat-bor a {
               display: inline-block;
               font-size: 14px;
               color: #a7a6a6;
-              margin-top: 30px;
+              margin-top: 15px;
               padding-right: 120px;
+              border: 1px solid #000;
               background: url("../images/gongsi/x-100.png") right no-repeat;
-              background-position: 60px -1px; }
+              background-position: 10px 5px; }
             .dat-top .dat-l .dat-l-b ul li .dat-b-r .dat-bor span {
               color: #888787;
               font-weight: bold;
               display: inline-block;
-              width: 40px;
-              margin: 0;
-              padding: 0;
-              background: none; }
+              width: 40px; }
         .dat-top .dat-l .dat-l-b ul li .dat-cs {
           width: 185px;
           height: 54px;
@@ -376,8 +344,6 @@ body {
         .dat-top .dat-r ul li .dat-lef span {
           margin-left: 20px;
           color: #979797; }
-        .dat-top .dat-r ul li .dat-lef a:hover {
-          color: red; }
       .dat-top .dat-r ul li .dat-rig {
         width: 120px;
         height: 100%;
