@@ -118,6 +118,16 @@ $inline-block:inline-block;
                     left:5px;
                     top:9px;
                 }
+                .input{
+                    width:260px;
+                    height:41px;
+                    position:absolute;
+                    left:37px;
+                    outline:none;
+                    top:-10px;
+                    background:transparent;
+                    border:none;
+                }
             }
             .head-xz{
                 display:block;

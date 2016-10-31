@@ -198,6 +198,17 @@ a:hover {
   top: 9px;
 }
 
+.header .head-center .head-right .circle-right .input {
+  width: 260px;
+  height: 41px;
+  position: absolute;
+  left: 37px;
+  outline: none;
+  top: -10px;
+  background: transparent;
+  border: none;
+}
+
 .header .head-center .head-right .head-xz {
   display: block;
   width: 75px;
