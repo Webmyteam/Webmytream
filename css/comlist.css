@@ -491,12 +491,108 @@ a:hover {
   background: url("../images/comlist/bg-lan.png");
 }
 
+.po-xk {
+  width: 1200px;
+  height: 205px;
+  background: transparent;
+  margin: 0px auto;
+}
+
+.po-xk ul {
+  width: 750px;
+  height: 34px;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.po-xk ul li {
+  margin: 3px 16px 0px 0px;
+  float: left;
+  text-align: center;
+}
+
+.po-xk ul li a {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #7D7D7D;
+  line-height: 26px;
+}
+
+.po-xk ul li.first {
+  width: 30px;
+  height: 30px;
+  background: #438BF8;
+  border: 1px solid #fff;
+  line-height: 34px;
+  margin: 0px 16px 0px 0px;
+  z-index: 10;
+}
+
+.po-xk ul li.first a {
+  color: #fff;
+}
+
+.po-xk ul li.first .border {
+  width: 34px;
+  height: 34px;
+  background: transparent;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  z-index: 0;
+  border: 2px solid #438BF8;
+  border-radius: 50%;
+}
+
+.po-xk ul li.div {
+  width: 34px;
+  height: 34px;
+  background: #438BF8;
+  position: absolute;
+  left: 0px;
+}
+
+.po-xk ul li.last {
+  background: #438BF8;
+  border: 1px solid #fff;
+}
+
+.po-xk ul li.last a {
+  text-transform: uppercase;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #fff;
+  line-height: 26px;
+}
+
+.po-xk ul .square {
+  width: 76px;
+  height: 28px;
+  background: transparent;
+  border: 1px solid #9E9E9E;
+  border-radius: 26px;
+}
+
+.po-xk ul .circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid #9E9E9E;
+}
+
 /*display of works*/
 .work {
   width: 1200px;
   height: 426px;
   background: transparent;
   margin: 0px auto;
+  margin-bottom: 49px;
 }
 
 .work .work-top {

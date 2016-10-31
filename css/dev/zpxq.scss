@@ -210,8 +210,9 @@ $inline-block:inline-block;
     border-radius: 25px;
     background:#fff;
     position: absolute;
-    left:80px;
+    left:50%;
     top:240px;
+    margin-left:-600px;
     .center1{
         width:$inner-width;
         height:70px;
@@ -382,6 +383,7 @@ $inline-block:inline-block;
         top:110px;
         color: #666;
         font-size: 16px;
+        font-family: "微软雅黑";
         span{
             font-size: 20px;
             color: #000;
