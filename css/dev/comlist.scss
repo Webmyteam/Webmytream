@@ -29,6 +29,13 @@ $box-shadow:0px 0px 12px rgba(0,0,0,.2);
     right:$right;
     top:$top;
 }
+@mixin h1($font-size,$color,$text-transform,$margin,$padding){
+    font-size:$font-size;
+    color:$color;
+    text-transform:$text-transform;
+    margin:$margin;
+    padding:$padding;
+}
 /*banner*/
 .banner {
     width: 1000px;
@@ -133,9 +140,27 @@ $box-shadow:0px 0px 12px rgba(0,0,0,.2);
 .mode{
     @include square(590px,200px,#0FC8F0);
     position:absolute;
-    left:90px;
-    bottom:30px;
+    left:48px;
+    bottom:52px;
     z-index:12;
+    h1{
+        @include h1(40px,#fff,uppercase,0px 0px 6px 40px,15px 0px 0px 20px);
+    }
+    .line{
+        @include square(202px,2px,#fff);
+        margin-left:60px;
+        .line2{
+            @include square(20px,4px,#fff);
+            position:absolute;
+            top:-1px;
+        }
+    }
+    h2{
+        @include h1(36px,#fff,uppercase,0px 0px 6px 40px,5px 0px 0px 20px);
+    }
+    h3{
+        @include h1(14px,#fff,uppercase,0px 0px 6px 40px,2px 0px 0px 20px);
+    }
 }
 .mode-ks{
     @include square(900px,199px,transparent);
@@ -146,6 +171,56 @@ $box-shadow:0px 0px 12px rgba(0,0,0,.2);
     left:223px;
     bottom:-92px;
     z-index:33;
+    .head-right{
+        @include square(569px,50px,#fff);
+        border:1px solid #b6c6ce;
+        border-radius:46px;
+        margin:69px 61px 0px 0px;
+        float:right;
+        position:relative;
+        overflow:hidden;
+        z-index:66;
+        .circle-right{
+            width:36px;
+            height:22px;
+            float:left;
+            line-height:41px;
+            margin:12px 0px 6px 6px;
+            border-right:2px solid #606060;
+            .last{
+                display:inline-block;
+                @include yuan(6px,#ffcd1f);
+                position:absolute;
+                left:5px;
+                top:9px;
+            }
+        }
+        .mode-font{
+            position:absolute;
+            left:42px;
+            top:8px;
+            line-height:1.8;
+            padding-left:10px;
+            a{
+                font-size:16px;
+                color:#b7b7b7;
+            }
+        }
+        
+    }
+    .head-xz{
+        display:block;
+        @include square(175px,76px,url($img-path+"/comlist/an-xz.png"));
+        float:right;
+        background-repeat:no-repeat;
+        background-position:30px 10px;
+        background-size:145px 64px;
+        position:absolute;
+        right:38px;
+        bottom:-140px;
+        margin-top:3px;
+        z-index:69;
+    }
 }
 /*head End*/
 /*center*/
@@ -158,13 +233,25 @@ $box-shadow:0px 0px 12px rgba(0,0,0,.2);
         background:url($img-path+"/comlist/huang.png");
         float:left;
         margin-right:39px;
-        box-shadow:$box-shadow;   
+        box-shadow:$box-shadow;
     }
     .center-right{
         @include square(580px,194px,transparent);
         background:url($img-path+"/comlist/lv.png");
         float:left;
         box-shadow:$box-shadow;    
+    }
+    ul{
+        width:442px;
+        margin:80px 0px 0px 16px;
+        padding:15px 15px 18px 0px;
+        li{
+            margin:0px 20px 20px;
+            float:left;
+            a{
+                font-size:12px;
+            }
+        }
     }
 }
 /*positions*/

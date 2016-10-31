@@ -179,9 +179,48 @@ a:hover {
   height: 200px;
   background: #0FC8F0;
   position: absolute;
-  left: 90px;
-  bottom: 30px;
+  left: 48px;
+  bottom: 52px;
   z-index: 12;
+}
+
+.mode h1 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0px 0px 6px 40px;
+  padding: 15px 0px 0px 20px;
+}
+
+.mode .line {
+  width: 202px;
+  height: 2px;
+  background: #fff;
+  margin-left: 60px;
+}
+
+.mode .line .line2 {
+  width: 20px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  top: -1px;
+}
+
+.mode h2 {
+  font-size: 36px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0px 0px 6px 40px;
+  padding: 5px 0px 0px 20px;
+}
+
+.mode h3 {
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0px 0px 6px 40px;
+  padding: 2px 0px 0px 20px;
 }
 
 .mode-ks {
@@ -194,6 +233,68 @@ a:hover {
   left: 223px;
   bottom: -92px;
   z-index: 33;
+}
+
+.mode-ks .head-right {
+  width: 569px;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #b6c6ce;
+  border-radius: 46px;
+  margin: 69px 61px 0px 0px;
+  float: right;
+  position: relative;
+  overflow: hidden;
+  z-index: 66;
+}
+
+.mode-ks .head-right .circle-right {
+  width: 36px;
+  height: 22px;
+  float: left;
+  line-height: 41px;
+  margin: 12px 0px 6px 6px;
+  border-right: 2px solid #606060;
+}
+
+.mode-ks .head-right .circle-right .last {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffcd1f;
+  position: absolute;
+  left: 5px;
+  top: 9px;
+}
+
+.mode-ks .head-right .mode-font {
+  position: absolute;
+  left: 42px;
+  top: 8px;
+  line-height: 1.8;
+  padding-left: 10px;
+}
+
+.mode-ks .head-right .mode-font a {
+  font-size: 16px;
+  color: #b7b7b7;
+}
+
+.mode-ks .head-xz {
+  display: block;
+  width: 175px;
+  height: 76px;
+  background: url("../images/comlist/an-xz.png");
+  float: right;
+  background-repeat: no-repeat;
+  background-position: 30px 10px;
+  background-size: 145px 64px;
+  position: absolute;
+  right: 38px;
+  bottom: -140px;
+  margin-top: 3px;
+  z-index: 69;
 }
 
 /*head End*/
@@ -223,6 +324,21 @@ a:hover {
   background: url("../images/comlist/lv.png");
   float: left;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+
+.center ul {
+  width: 442px;
+  margin: 80px 0px 0px 16px;
+  padding: 15px 15px 18px 0px;
+}
+
+.center ul li {
+  margin: 0px 20px 20px;
+  float: left;
+}
+
+.center ul li a {
+  font-size: 12px;
 }
 
 /*positions*/
