@@ -10,14 +10,13 @@ $inline-block:inline-block;
     height:835px;
     background:url($img-path+"/comlist/banner.png");
     background-size:100% 835px;
-    overflow:hidden;
     background-color:rgba(33,90,107,.91);
     opacity:.75;
     z-index:0;
 }
 .header{
     width:$ow;
-    height:143px;
+    height:144px;
     background:#0C4F69;
     background-color:rgba(33,90,107,.91);
     overflow:hidden;
