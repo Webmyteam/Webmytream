@@ -225,7 +225,8 @@ body {
           margin-left: 40px;
           margin-bottom: 5px;
           color: #10C8F0;
-          font-size: 14px; }
+          font-size: 14px;
+          text-decoration: underline; }
         .dat-top .dat-l .dat-l-c ul li a:hover {
           color: red; }
       .dat-top .dat-l .dat-l-c ul li:nth-of-type(2) {
@@ -261,7 +262,7 @@ body {
           background: #f4f4f4;
           position: absolute;
           right: 25px;
-          top: -10px; }
+          top: -15px; }
           .dat-top .dat-l .dat-l-b ul li .dat-ff span {
             background: none;
             width: 30px;
