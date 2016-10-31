@@ -10,6 +10,16 @@
 	width:66px;
 	height:106px;
 	margin-top:55px;
+	position:relative;
+	& span{
+    position:absolute;
+	top:0;
+	left:-86px;
+	display:none;
+	}
+	}
+	& .photo:hover span{
+	display:block;
 	}
 }
 #cedao ul{
@@ -20,7 +30,6 @@
 	padding-left:15px;
 	width:100%;
 	height:auto;
-	overflow:hidden;
 	margin-bottom:15px;
 	position:relative;
 	& span{

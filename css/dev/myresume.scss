@@ -13,8 +13,8 @@ $Bcolor3:#dedede;
     margin: {
         left:auto;
         right:auto;
-        top:143px;
     };
+    padding-top:143px;
     overflow:hidden;
     &>.hx{
         width: 980px;
@@ -404,7 +404,7 @@ $Bcolor3:#dedede;
 }
 .send{
     width: 1190px;
-    height:1100px;
+    height:1560px;
     padding-left:10px ;
     margin-top: 60px;
     position: relative;
@@ -414,11 +414,29 @@ $Bcolor3:#dedede;
     top:-33px;
     left: 30px;
     }
+    .jiao{
+        position: absolute;
+        width: 1340px;
+        height: 1296px;
+        left: -75px;
+        bottom: 0;
+        background: #155c86;
+        z-index: -1;
+       
+    }
+    #review{
+        position: absolute;
+        bottom: 320px;
+        left:0;
+        right:0;
+        margin:auto;
+    }
     .name{
     width: 100%;
     height: auto;
     overflow: hidden;
     border-top:1px solid #dfdfdf;
+    background: #fff;
     .send-img{
     margin-left: 30px;
     margin-top: 50px;
@@ -492,4 +510,172 @@ $Bcolor3:#dedede;
 float: left;
 margin-top: 0;
 color: #3e3e3e;
+}
+.send .clothes{
+    float: left;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-left: 180px;
+    box-sizing: border-box;
+    padding-top: 25px;
+     background: #fff;
+}
+.send .clothes img{
+    float: left;
+}
+.send .clothes .data{
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.send .clothes .data p{
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+.send .clothes .data p:nth-of-type(2){
+    color:$Bcolor3;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.send .clothes .neirong{
+    float: left;
+}
+.send{
+    .brand{
+        width: 1180px;
+        height: auto;
+        padding: 0 30px;
+        box-sizing: border-box;
+        border-top: 1px solid #dedede;
+        background: #fff;
+        overflow: hidden;
+        @include margin;
+        span{
+            float: left;
+            font-size: 24px;
+            font-style: italic;
+            margin-right: 20px;
+            margin-top: 70px;
+            margin-left: 570px;
+            line-height: 60px;
+            margin-bottom: 60px;
+        }
+        img{
+            float: left;
+            margin-right: 20px;
+            margin-top: 70px;
+            margin-bottom: 60px;
+        }
+    }
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0,0,0,0.75);
+}
+.shadow .shadow1{
+    width:953px;
+    padding: 0 25px;
+    height:639px;
+    position: relative;
+    left:50%;
+    box-sizing: border-box;
+    margin-left: -476px;
+    background: rgba(255,255,255,0.95);
+    top:560px;
+    .resume{
+        position: absolute;
+        @include left-right;
+        top:-95px;
+        z-index: 2;
+    }
+    .big{
+        margin-left: 11px;
+        margin-right: 11px;
+        margin-top: 135px;
+    }
+    .small1{
+        width: 150px;
+        height: 50px;
+        background-image:url($img-path+"/my/t_07.png") ;
+        background-repeat: no-repeat;
+        background-position:center center;
+        float: left;
+        margin-top: 20px;
+        margin-left: 80px;
+        margin-right: 70px;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+    }
+    .small2{
+        background-image:url($img-path+"/my/zhe_05.png") ;
+    }
+    .tijiao{
+        position: absolute;
+        bottom: 20px;
+        @include left-right;
+    }
+    .squre{
+        width:307px;
+        height: 108px;
+        position: absolute;
+        right: 116px;
+        bottom: -56px;
+        background-image:url($img-path+"/my/zhezhao_03.jpg") ;
+        z-index: -1;
+        .zjiantou{
+            width: 15px;
+            height: 18px;
+//          background: rgba(0,0,0,0.3);
+            margin-left: 24px;
+            margin-top: 70px;
+            cursor: pointer;
+            display: inline-block;
+        }
+         .yjiantou{
+            width: 15px;
+            height: 18px;
+//          background: rgba(0,0,0,0.3);
+            margin-left: 6px;
+            margin-top: 70px;
+            cursor: pointer;
+            display: inline-block;
+        }
+    }
+    .yuan{
+        width: 432px;
+        height: 55px; 
+        left: 100px;
+        bottom: -55px;
+        background: rgba(29,212,115,0.15);
+        position: absolute;
+        .circle{
+            width: 15px;
+            height: 15px;
+            border: 2px solid #fff;
+            background: #fff;
+            border-radius:50%;
+            float: left;
+            cursor: pointer;
+           margin-top: 20px;
+           margin-right: 8px;
+        }
+        .circle:nth-of-type(1){
+            margin-left: 280px;
+             background: #f0c310;
+        }
+    }
+}
+.shadow .shadow2{
+    margin-top: 230px;
+    .tijiao{
+        bottom: 60px;
+    }
 }
