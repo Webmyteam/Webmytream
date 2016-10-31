@@ -729,7 +729,7 @@ a:hover {
   left: 50%;
   box-sizing: border-box;
   margin-left: -476px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.95);
   top: 560px;
 }
 
@@ -743,8 +743,98 @@ a:hover {
   z-index: 2;
 }
 
-.shadow .shadow1 img {
+.shadow .shadow1 .big {
   margin-left: 11px;
   margin-right: 11px;
   margin-top: 135px;
+}
+
+.shadow .shadow1 .small1 {
+  width: 150px;
+  height: 50px;
+  background-image: url("../images/my/t_07.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 70px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.shadow .shadow1 .small2 {
+  background-image: url("../images/my/zhe_05.png");
+}
+
+.shadow .shadow1 .tijiao {
+  position: absolute;
+  bottom: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.shadow .shadow1 .squre {
+  width: 307px;
+  height: 108px;
+  position: absolute;
+  right: 116px;
+  bottom: -56px;
+  background-image: url("../images/my/zhezhao_03.jpg");
+  z-index: -1;
+}
+
+.shadow .shadow1 .squre .zjiantou {
+  width: 15px;
+  height: 18px;
+  margin-left: 24px;
+  margin-top: 70px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.shadow .shadow1 .squre .yjiantou {
+  width: 15px;
+  height: 18px;
+  margin-left: 6px;
+  margin-top: 70px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.shadow .shadow1 .yuan {
+  width: 432px;
+  height: 55px;
+  left: 100px;
+  bottom: -55px;
+  background: rgba(29, 212, 115, 0.15);
+  position: absolute;
+}
+
+.shadow .shadow1 .yuan .circle {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #fff;
+  background: #fff;
+  border-radius: 50%;
+  float: left;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 8px;
+}
+
+.shadow .shadow1 .yuan .circle:nth-of-type(1) {
+  margin-left: 280px;
+  background: #f0c310;
+}
+
+.shadow .shadow2 {
+  margin-top: 230px;
+}
+
+.shadow .shadow2 .tijiao {
+  bottom: 60px;
 }
