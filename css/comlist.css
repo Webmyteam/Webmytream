@@ -278,8 +278,18 @@ a:hover {
 }
 
 .mode-ks .head-right .mode-font a {
+  display: block;
   font-size: 16px;
   color: #b7b7b7;
+}
+
+.mode-ks .head-right .mode-font a input {
+  width: 300px;
+  height: 45px;
+  position: absolute;
+  top: -6px;
+  outline: none;
+  border: none;
 }
 
 .mode-ks .head-xz {
