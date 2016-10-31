@@ -186,6 +186,7 @@ $Bcolor3:#dedede;
                 margin-top: 20px;
                 margin-left: 20px;
                 display: block;
+                cursor: pointer;
             }
         }
     }
@@ -234,12 +235,13 @@ $Bcolor3:#dedede;
             height: auto;
             float: left;
             padding-left: 35px;
+            background:url($img-path+"/my/number.jpg") no-repeat 4px 0px;
             p{
                 font-size: 12px;
                 line-height: 18px;
                 color:#a3a3a3;
                 margin-top: 10px;
-                margin-bottom: 25px;
+                margin-bottom: 33px;
             }
         }
     }
@@ -430,6 +432,7 @@ $Bcolor3:#dedede;
         left:0;
         right:0;
         margin:auto;
+        cursor: pointer;
     }
     .name{
     width: 100%;
@@ -510,6 +513,7 @@ $Bcolor3:#dedede;
 float: left;
 margin-top: 0;
 color: #3e3e3e;
+margin-left: 5px;
 }
 .send .clothes{
     float: left;
@@ -597,7 +601,7 @@ color: #3e3e3e;
     }
     .big{
         margin-left: 11px;
-        margin-right: 11px;
+        margin-right: 9px;
         margin-top: 135px;
     }
     .small1{
@@ -620,6 +624,7 @@ color: #3e3e3e;
     .tijiao{
         position: absolute;
         bottom: 20px;
+        cursor: pointer;
         @include left-right;
     }
     .squre{
