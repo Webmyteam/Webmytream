@@ -799,7 +799,7 @@ a:hover {
   width: 700px;
   height: auto;
   float: left;
-  margin-top: 79px;
+  margin-top: 77px;
   margin-left: 42px;
 }
 
@@ -808,10 +808,11 @@ a:hover {
   float: left;
   color: #999;
   margin-right: 42px;
+  z-index: 666;
 }
 
 .Dgywm li a:hover {
-  color: #fff;
+  color: #c00;
 }
 
 .Dgywm li span {

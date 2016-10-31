@@ -588,7 +588,7 @@ $box-shadow:0px 0px 12px rgba(0,0,0,.2);
     width:700px;
     height:auto;
     float:left;
-    margin-top:79px;
+    margin-top:77px;
     margin-left:42px;
 }
 .Dgywm li a{
@@ -596,9 +596,10 @@ $box-shadow:0px 0px 12px rgba(0,0,0,.2);
     float:left;
     color:#999;
     margin-right:42px;
+    z-index: 666;
 } 
 .Dgywm li a:hover{
-    color:#fff;
+    color:#c00;
 }
 .Dgywm li span{
     color:#666;
