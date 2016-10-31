@@ -15,12 +15,308 @@ img {
   border: none;
 }
 
+body {
+  background: #f4f4f4;
+}
+
 .banner {
-  width: 1200px;
+  width: 100%;
+  height: 470px;
+  margin: 5px auto;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
   height: 470px;
 }
 
-.banner .bannerleft {
-  width: 360px;
-  height: 470px;
+.center {
+  width: 1200px;
+  height: 500px;
+  border-radius: 25px;
+  background: #fff;
+  position: absolute;
+  left: 83px;
+  top: 95px;
+}
+
+.center .center1 {
+  width: 1200px;
+  height: 70px;
+  position: relative;
+}
+
+.center .center1 .UI {
+  width: 260px;
+  height: 80px;
+  border-radius: 10px;
+  background: #1893d1;
+  position: absolute;
+  left: 42px;
+  top: -10px;
+}
+
+.center .center1 .UI span {
+  font-size: 10px;
+  padding: 30px 30px;
+  color: #fff;
+}
+
+.center .center1 .UI h1 {
+  color: #fff;
+  padding: 5px 30px;
+}
+
+.center .center2 {
+  width: 1200px;
+  height: 355px;
+  margin-left: 42px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.center .center2 .qian {
+  width: 24px;
+  height: 24px;
+  background: url(../images/zhaopin/qian.png);
+  float: left;
+}
+
+.center .center2 a {
+  color: #000;
+  font-size: 20px;
+  float: left;
+}
+
+.center .center2 a :nth-child(2) {
+  color: red;
+}
+
+.center .center2 .lihe {
+  width: 24px;
+  height: 24px;
+}
+
+.center .center2 .xinzi {
+  color: #d6d6d6;
+  font-size: 20px;
+}
+
+.center .center2 .uek {
+  margin-top: 20px;
+}
+
+.center .center2 .uek span {
+  color: #78e0ac;
+  font-size: 16px;
+}
+
+.center .center2 .ing {
+  position: absolute;
+  right: 200px;
+  top: -60px;
+}
+
+.center .center2 .ing span {
+  font-size: 16px;
+  color: #5085a4;
+}
+
+.center .center2 .ing span span {
+  font-size: 40px;
+  color: #10c8f0;
+}
+
+.center .center2 .jianli {
+  width: 184px;
+  height: 51px;
+  position: absolute;
+  right: 170px;
+  top: 0px;
+  background: url(../images/zhaopin/jianli.png);
+}
+
+.center .center2 .fb {
+  width: 1000px;
+  height: 160px;
+  border: 1px dashed #dfdfdf;
+  margin-top: 50px;
+  position: relative;
+}
+
+.center .center2 .fb .fbfont {
+  position: absolute;
+  left: 500px;
+  top: -10px;
+  color: #c2c2c2;
+  background: #fff;
+}
+
+.center .center2 .fb .xuhu {
+  width: 146px;
+  height: 141px;
+  background: url(../images/zhaopin/xuhu.png);
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+
+.center .center2 .fb .xhfont {
+  color: #c2c2c2;
+  position: absolute;
+  left: 185px;
+  top: 80px;
+}
+
+.center .center2 .fb .company {
+  position: absolute;
+  left: 485px;
+  top: 80px;
+  color: #c2c2c2;
+}
+
+.center .center2 .fb .sixin {
+  width: 165px;
+  height: 50px;
+  position: absolute;
+  right: 60px;
+  top: 50px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  background: #5bdb9d;
+}
+
+.content {
+  width: 1200px;
+  height: 1900px;
+  background: #fff;
+  border-radius: 25px;
+  margin: 140px auto;
+}
+
+.content .Jobdescription {
+  margin-top: 50px;
+  width: 100%;
+  height: 250px;
+  border-bottom: 1px solid #dfdfdf;
+  position: relative;
+}
+
+.content .Jobdescription .zhiwei {
+  margin-left: 42px;
+  position: absolute;
+  left: 20px;
+  top: 70px;
+  font-size: 30px;
+  color: #5bdb9d;
+}
+
+.content .Jobdescription .description {
+  position: absolute;
+  left: 62px;
+  top: 110px;
+  color: #abaaaa;
+  font-size: 16px;
+}
+
+.content .Jobdescription .description span {
+  font-size: 20px;
+  color: #000;
+}
+
+.content .Jobdescription .description .job {
+  color: #74c783;
+}
+
+.content .Jobdescription .description .bb {
+  color: #585757;
+  font-weight: 800;
+}
+
+.content .Jobrequirements {
+  width: 100%;
+  height: 160px;
+  border-bottom: 1px solid #dfdfdf;
+  position: relative;
+}
+
+.content .Jobrequirements .requirements {
+  position: absolute;
+  left: 62px;
+  top: 20px;
+  color: #abaaaa;
+  font-size: 16px;
+}
+
+.content .Jobrequirements .requirements span {
+  font-size: 20px;
+  color: #000;
+}
+
+.content .Jobrequirements .requirements .job {
+  color: #74c783;
+}
+
+.content .Jobrequirements .requirements .bb {
+  color: #585757;
+  font-weight: 800;
+}
+
+.content .Workplace {
+  width: 100%;
+  height: 445px;
+  border-bottom: 1px solid #dfdfdf;
+  position: relative;
+}
+
+.content .Workplace .didian {
+  margin-left: 42px;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  font-size: 30px;
+  color: #5bdb9d;
+}
+
+.content .Workplace .place {
+  position: absolute;
+  left: 62px;
+  top: 350px;
+  color: #abaaaa;
+  font-size: 16px;
+}
+
+.content .Workplace .map {
+  width: 1023px;
+  height: 282px;
+  position: absolute;
+  left: 62px;
+  top: 80px;
+}
+
+.content .briefintroduction {
+  width: 100%;
+  height: 150px;
+  border-bottom: 1px solid #dfdfdf;
+  position: relative;
+}
+
+.content .briefintroduction .jianjie {
+  margin-left: 42px;
+  position: absolute;
+  left: 20px;
+  top: 12px;
+  font-size: 30px;
+  color: #5bdb9d;
+}
+
+.content .briefintroduction .introduction {
+  position: absolute;
+  left: 62px;
+  top: 52px;
+  color: #abaaaa;
+  font-size: 16px;
 }
