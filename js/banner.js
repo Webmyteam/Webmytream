@@ -24,10 +24,10 @@
 		}
 		// 添加鼠标移入事件，移入停止，离开执行时间函数；
 		$(".banner .banner-img").hover(function(){
-			$(".banner .gt").css("display","block");
+//			$(".banner .gt").css("display","block");
 			clearInterval(t);
 		},function(){
-			$(".banner .gt").css("display","none");
+//			$(".banner .gt").css("display","none");
 			t=setInterval(move,3000);
 		});
 		// 给左右按钮添加点击事件
