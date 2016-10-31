@@ -22,6 +22,13 @@ $box-shadow:0px 0px 12px rgba(0,0,0,.2);
     border-radius:$border-radius;
     border:$border;
 }
+@mixin po-right($width,$height,$position,$right,$top){
+    width:$width;
+    height:$height;
+    position:$position;
+    right:$right;
+    top:$top;
+}
 /*banner*/
 .banner {
     width: 1000px;
@@ -172,8 +179,6 @@ $box-shadow:0px 0px 12px rgba(0,0,0,.2);
         background-size:cover;
     }
     .po-tub{
-//      width:150px;
-//      height:150px;
         padding-left:16px;
         position:absolute;
         left:239px;
@@ -192,22 +197,72 @@ $box-shadow:0px 0px 12px rgba(0,0,0,.2);
             &:nth-child(2) a{
                 color:#666;
                 font-weight:600;
-                
-                
+            }
+            span.price{
+                color:#07B0D5;
+                font-size:20px;
+                font-weight:900;
             }
             span{
-               margin-left:26px;
+               margin-left:36px;
                font-size:14px;
             }
+        }
+    }
+    .po-right{
+        @include po-right(146px,163px,absolute,125px,28px);
+        a.top{
+            display:block;
+            @include square(73px,73px,url($img-path+"/comlist/b_25.png"));
+            margin:0px auto;
+        }
+        p{
+            width:100%;
+            font-size:18px;
+            text-align:center;
+            line-height:1.5;
+            padding-top:10px;
+            color:#6c6c6c;
+            span{
+                @include square(5px,5px,#6c6c6c);
+                letter-spacing:3px;
+                background:green;
+                margin:0px 15px;
+            }
+        }
+        a.bottom{
+            display:block;
+            margin:10px auto 0px;
+            text-align:center;
+            line-height:42px;
+            font-size:16px;
+            letter-spacing:2px;
         }
     }
 }
 .positions:nth-of-type(1){
     @include positions($margin,1px solid #0fc6ee,$box-shadow,url($img-path+"/comlist/bg-middle.png"));
+    a.bottom{
+        @include square(145px,42px,url($img-path+"/comlist/an-h.png"));
+    }
 }
 .positions:nth-of-type(2){
     @include positions(12px auto 12px,1px solid #FBC74B,$box-shadow,url($img-path+"/comlist/bg-middle.png"));
+    a.bottom{
+        @include square(145px,42px,url($img-path+"/comlist/bg-lan.png"));
+    }
+    .po-tub{
+        li:nth-child(2) a{
+            color:#EDC449;
+        }
+        span.price{
+            color:#EDC449;
+        }
+    }
 }
 .positions:nth-of-type(3){
     @include positions(12px auto 12px,1px solid #0fc6ee,$box-shadow,url($img-path+"/comlist/bg-middle.png"));
+    a.bottom{
+        @include square(145px,42px,url($img-path+"/comlist/bg-lan.png"));
+    }
 }
