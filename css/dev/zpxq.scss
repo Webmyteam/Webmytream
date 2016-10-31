@@ -3,10 +3,201 @@ $ban-height:470px;
 body{
     background: #f4f4f4;
 }
+$ow:100%;
+$inline-block:inline-block;
+#cedao{
+    z-index: 2;
+    width:67px;
+    height:988px;
+    background:rgba(12,43,56,0.9);
+    position:fixed;
+    right:0;
+    top:0;
+    & .photo{
+    width:66px;
+    height:106px;
+    margin-top:55px;
+    position:relative;
+    & span{
+    position:absolute;
+    top:0;
+    left:-86px;
+    display:none;
+    }
+    }
+    & .photo:hover span{
+    display:block;
+    }
+}
+#cedao ul{
+    margin-top:50px;
+    width:100%;
+    height:100%;
+    & li{
+    padding-left:15px;
+    width:100%;
+    height:auto;
+    margin-bottom:15px;
+    position:relative;
+    & span{
+    position:absolute;
+    top:0;
+    left:-86px;
+    display:none;
+    }
+    }
+    & li:nth-last-child(2){
+    margin-top:50px;
+    }
+    & li:last-child{
+    margin-top:30px;
+    }
+    & li:nth-of-type(1):hover span{
+    display:block;
+    }
+    & li:nth-of-type(2):hover span{
+    display:block;
+    }
+    & li:nth-of-type(3):hover span{
+    display:block;
+    }
+    & li:nth-of-type(4):hover span{
+    display:block;
+    }
+    & li:nth-of-type(5):hover span{
+    display:block;
+    }
+    & li:nth-of-type(6):hover span{
+    display:block;
+    }
+    & li:nth-of-type(7):hover span{
+    display:block;
+    }
+    }
+
+.header{
+    width:$ow;
+    height:144px;
+    background:#0C4F69;
+    background-color:rgba(33,90,107,.91);
+    overflow:hidden;
+    .head-center{
+        width:$inner-width;
+        height:100%;
+        background:transparent;
+        margin:$margin;
+        z-index:10;
+        li{
+            float:left;
+        }
+        .logo{
+            width:76px;
+            height:100%;
+            padding:10px;
+            background:url($img-path+"/footer/logo.png");
+            background-position:center center;
+            background-repeat:no-repeat;
+            margin:0px 0px 10px 15px;
+        }
+        .head-nav{
+            height:100%;
+            line-height:100%;
+            padding:15px;
+            margin:0px 15px 0px 15px;
+            .nav{
+                margin-top:28px;
+                li{
+                    width:143px;
+                    height:auto;
+                    float:left;
+                    border-right:1px dashed #ccc;
+                    line-height:1.5;
+                    text-transform:capitalize;
+                    margin:5px 10px 6px 15px;
+                    a{
+                        display:block;
+                        font-size:14px;
+                        .top-title{
+                            color:#bdbebe;
+                        }
+                        .line{
+                            position:relative;
+                            width:69px;
+                            border:1px solid #707577;
+                            margin:5px 0px;
+                            .color{
+                                position:absolute;
+                                width:15px;
+                                border:1px solid #ffcd1f;
+                                top:-1px;
+                                right:0px;
+                            }
+                        }
+                        .bottom-title{
+                            color:#fff;
+                            letter-spacing:2px;
+                        }
+                    }
+                }
+            }
+            .circle-nav{
+                width:60px;
+                margin-left:15px;
+                .first{
+                    display:$inline-block;
+                    width:33px;
+                    height:5px;
+                    background:#FFCD1F;
+                    margin:2px 0px;
+                    border-radius:5px;
+                }
+                .last{
+                    display:$inline-block;
+                    @include yuan(6px,#ffcd1f);
+                    margin:2px 0px 2px 3px;
+                }
+            }
+        }
+        .head-right{
+            width:360px;
+            height:41px;
+            border:1px solid #b6c6ce;
+            border-radius:19px;
+            margin-top:53px;
+            position:relative;
+            overflow:hidden;
+            .circle-right{
+                width:36px;
+                height:22px;
+                float:left;
+                line-height:41px;
+                margin:9px 0px 6px 6px;
+                border-right:1px solid #7596a6;
+                .last{
+                    display:$inline-block;
+                    @include yuan(6px,#ffcd1f);
+                    position:absolute;
+                    left:5px;
+                    top:9px;
+                }
+            }
+            .head-xz{
+                display:block;
+                width:75px;
+                height:36px;
+                float:right;
+                background:url($img-path+"/comlist/an-xz.png");
+                background-repeat:no-repeat;
+                background-position:0px 0px;
+                margin-top:3px;
+            }
+        }
+    }
+}
 .banner{
     width:100%;
     height:470px;
-    margin:5px auto;
+    margin:0px auto;
     position: relative;
         img{
             width:100%;
@@ -19,8 +210,8 @@ body{
     border-radius: 25px;
     background:#fff;
     position: absolute;
-    left:83px;
-    top:95px;
+    left:80px;
+    top:240px;
     .center1{
         width:$inner-width;
         height:70px;
@@ -61,7 +252,8 @@ body{
             font-size: 20px;
             float: left;
            
-            :nth-child(2){
+            span{
+            margin-right:10px;
             color: red;  
         }
         }
@@ -72,7 +264,7 @@ body{
                 
             }
         .xinzi{
-            color: #d6d6d6;
+            color: #999999;
             font-size:20px;
            
           
@@ -129,10 +321,13 @@ body{
                 top:10px;
             }
             .xhfont{
-                color: #c2c2c2;
+                color: #999999;
                 position: absolute;
                 left:185px;
-                top:80px;
+                top:70px;
+                h1{
+                    color: #333333;
+                }
             }
             .company{
                 position: absolute;
@@ -174,7 +369,6 @@ body{
         position: relative;
     .zhiwei{
         margin-left:42px;
-       
         position: absolute;
         left:20px;
         top:70px;
@@ -186,7 +380,7 @@ body{
         position: absolute;
         left:62px;
         top:110px;
-        color: #abaaaa;
+        color: #666;
         font-size: 16px;
         span{
             font-size: 20px;
@@ -210,7 +404,7 @@ body{
         position: absolute;
         left:62px;
         top:20px;
-        color: #abaaaa;
+        color: #666;
         font-size: 16px;
         span{
             font-size: 20px;
@@ -244,7 +438,7 @@ body{
         position: absolute;
         left:62px;
         top:350px;
-        color: #abaaaa;
+        color: #666;
         font-size: 16px;
         }
         .map{
@@ -272,7 +466,7 @@ body{
         position: absolute;
         left:62px;
         top:52px;
-        color: #abaaaa;
+        color: #666;
         font-size: 16px;   
         }
         
@@ -294,7 +488,7 @@ body{
         position: absolute;
         left:62px;
         top:52px;
-        color: #abaaaa;
+        color: #666;
         font-size: 16px;  
         }
         .com{
