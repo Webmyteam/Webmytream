@@ -48,7 +48,7 @@ img{
 	margin:auto;
 }
 /*左右居中的混合宏*/
-@mixin top-bottom{
+@mixin left-right{
 	position:absolute;
 	left:0;
 	right:0;

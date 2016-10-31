@@ -523,7 +523,7 @@ a:hover {
 
 .send {
   width: 1190px;
-  height: 1100px;
+  height: 1560px;
   padding-left: 10px;
   margin-top: 60px;
   position: relative;
@@ -537,11 +537,30 @@ a:hover {
   left: 30px;
 }
 
+.send .jiao {
+  position: absolute;
+  width: 1340px;
+  height: 1296px;
+  left: -75px;
+  bottom: 0;
+  background: #155c86;
+  z-index: -1;
+}
+
+.send #review {
+  position: absolute;
+  bottom: 320px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 .send .name {
   width: 100%;
   height: auto;
   overflow: hidden;
   border-top: 1px solid #dfdfdf;
+  background: #fff;
 }
 
 .send .name .send-img {
@@ -623,4 +642,71 @@ a:hover {
   float: left;
   margin-top: 0;
   color: #3e3e3e;
+}
+
+.send .clothes {
+  float: left;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-left: 180px;
+  box-sizing: border-box;
+  padding-top: 25px;
+  background: #fff;
+}
+
+.send .clothes img {
+  float: left;
+}
+
+.send .clothes .data {
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.send .clothes .data p {
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+.send .clothes .data p:nth-of-type(2) {
+  color: #dedede;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.send .clothes .neirong {
+  float: left;
+}
+
+.send .brand {
+  width: 1180px;
+  height: auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+  border-top: 1px solid #dedede;
+  background: #fff;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.send .brand span {
+  float: left;
+  font-size: 24px;
+  font-style: italic;
+  margin-right: 20px;
+  margin-top: 70px;
+  margin-left: 570px;
+  line-height: 60px;
+  margin-bottom: 60px;
+}
+
+.send .brand img {
+  float: left;
+  margin-right: 20px;
+  margin-top: 70px;
+  margin-bottom: 60px;
 }
