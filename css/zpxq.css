@@ -62,7 +62,7 @@ body {
   z-index: 2;
   width: 67px;
   height: 988px;
-  background: rgba(12, 43, 56, 0.9);
+  background: rgba(12, 43, 56, 0.7);
   position: fixed;
   right: 0;
   top: 0;
@@ -93,7 +93,7 @@ body {
 }
 
 #cedao ul li {
-  padding-left: 15px;
+  padding-left: 10px;
   width: 100%;
   height: auto;
   margin-bottom: 15px;
@@ -870,7 +870,7 @@ body {
   border-left: 2px solid #00b38a;
   position: absolute;
   left: 40px;
-  top: 145px;
+  top: 115px;
 }
 
 .recruit .ka .Designer {
@@ -907,7 +907,7 @@ body {
   border-left: 2px solid #00b38a;
   position: absolute;
   right: 56px;
-  top: 145px;
+  top: 115px;
 }
 
 .recruit .ka2 .Designer {
@@ -944,7 +944,7 @@ body {
   border-left: 2px solid #00b38a;
   position: absolute;
   left: 40px;
-  top: 250px;
+  top: 220px;
 }
 
 .recruit .ka3 .Designer {
@@ -981,7 +981,7 @@ body {
   border-left: 2px solid #00b38a;
   position: absolute;
   right: 56px;
-  top: 250px;
+  top: 220px;
 }
 
 .recruit .ka4 .Designer {
@@ -1018,7 +1018,7 @@ body {
   border-left: 2px solid #00b38a;
   position: absolute;
   left: 40px;
-  top: 350px;
+  top: 320px;
 }
 
 .recruit .ka5 .Designer {
@@ -1055,7 +1055,7 @@ body {
   border-left: 2px solid #00b38a;
   position: absolute;
   right: 56px;
-  top: 350px;
+  top: 320px;
 }
 
 .recruit .ka6 .Designer {
