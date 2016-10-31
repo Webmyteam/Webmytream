@@ -322,10 +322,9 @@ $box-shadow:0px 0px 12px rgba(0,0,0,.2);
             padding-top:10px;
             color:#6c6c6c;
             span{
-                @include square(5px,5px,#6c6c6c);
+                @include square(5px,5px,transparent);
                 letter-spacing:3px;
-                background:green;
-                margin:0px 15px;
+                margin:0px 8px;
             }
         }
         a.bottom{
