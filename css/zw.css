@@ -12,9 +12,9 @@ body {
 #cedao {
   width: 67px;
   height: 988px;
-  background: rgba(12, 43, 56, 0.9);
-  z-index: 9999;
+  background: rgba(12, 43, 56, 0.7);
   position: fixed;
+  z-index: 9999;
   right: 0;
   top: 0;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 #cedao ul li {
-  padding-left: 15px;
+  padding-left: 10px;
   width: 100%;
   height: auto;
   margin-bottom: 15px;
@@ -245,13 +245,6 @@ body {
   background-repeat: no-repeat;
   background-position: 0px 0px;
   margin-top: 3px;
-}
-
-.banner {
-  width: 1100px;
-  height: 561px;
-  margin: 0px auto;
-  background: #ffcd1f;
 }
 
 .Dbanner {
@@ -594,7 +587,7 @@ body {
   width: 700px;
   height: auto;
   float: left;
-  margin-top: 79px;
+  margin-top: 77px;
   margin-left: 42px;
 }
 
@@ -603,10 +596,11 @@ body {
   float: left;
   color: #999;
   margin-right: 42px;
+  z-index: 666;
 }
 
 .Dgywm li a:hover {
-  color: #fff;
+  color: #c00;
 }
 
 .Dgywm li span {
