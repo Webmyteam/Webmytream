@@ -1,10 +1,31 @@
+@charset "UTF-8";
 /*inner-width*/
+/*myresume中的颜色*/
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
 * {
   margin: 0px;
   padding: 0px;
   position: relative;
   list-style-type: none;
   box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #666;
+  font-weight: 400;
 }
 
 a {
@@ -15,6 +36,24 @@ img {
   border: none;
 }
 
+/*上下左右居中的混合宏*/
+/*上下居中的混合宏*/
+/*左右居中的混合宏*/
+/*yuan的混合宏*/
+/*带参数左右浮动的混合宏*/
+/*div的混合宏*/
+/*box-shadow的混合宏*/
+/*image路径*/
+a {
+  color: #fff;
+  font-size: 12px;
+}
+
+a:hover {
+  color: #c00;
+}
+
+/*font line-height的混合宏*/
 body {
   background: #f4f4f4;
 }
@@ -194,7 +233,9 @@ body {
   height: 1900px;
   background: #fff;
   border-radius: 25px;
-  margin: 140px auto;
+  margin-top: 140px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content .Jobdescription {
@@ -267,8 +308,8 @@ body {
 
 .content .Workplace {
   width: 100%;
-  height: 445px;
-  border-bottom: 1px solid #dfdfdf;
+  height: 455px;
+  border-bottom: 10px solid #dfdfdf;
   position: relative;
 }
 
@@ -319,4 +360,491 @@ body {
   top: 52px;
   color: #abaaaa;
   font-size: 16px;
+}
+
+.content .Enterpriseintroduction {
+  width: 100%;
+  height: 760px;
+  border-bottom: 1px solid #dfdfdf;
+  position: relative;
+}
+
+.content .Enterpriseintroduction .qiye {
+  margin-left: 42px;
+  position: absolute;
+  left: 20px;
+  top: 12px;
+  font-size: 30px;
+  color: #5bdb9d;
+}
+
+.content .Enterpriseintroduction .iseintroduction {
+  position: absolute;
+  left: 62px;
+  top: 52px;
+  color: #abaaaa;
+  font-size: 16px;
+}
+
+.content .Enterpriseintroduction .com {
+  position: absolute;
+  left: 62px;
+  top: 262px;
+}
+
+.content .Enterpriseintroduction .com img {
+  float: left;
+  margin-right: 5px;
+}
+
+.content .Enterprisewebsite {
+  width: 100%;
+  height: 110px;
+  position: relative;
+}
+
+.content .Enterprisewebsite .wangzhan {
+  margin-left: 42px;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  font-size: 30px;
+  color: #5bdb9d;
+}
+
+.content .Enterprisewebsite .wangzhi {
+  position: absolute;
+  left: 72px;
+  top: 72px;
+}
+
+.content .Enterprisewebsite .wangzhi a {
+  font-size: 20px;
+  color: #10c3ea;
+}
+
+.comment {
+  width: 1200px;
+  height: 310px;
+  background: #fff;
+  border-radius: 15px;
+  margin: 20px auto;
+  border-top: 3px solid #10c3ea;
+  position: relative;
+}
+
+.comment .people {
+  position: absolute;
+  right: -30px;
+  top: 50px;
+}
+
+.comment .start {
+  position: absolute;
+  left: 380px;
+  top: 42px;
+}
+
+.comment .hulu {
+  position: absolute;
+  left: 72px;
+  top: 25px;
+}
+
+.comment .bao {
+  position: absolute;
+  left: 222px;
+  top: 25px;
+  font-size: 40px;
+  color: #3f3e3e;
+}
+
+.comment .bao span {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.comment .bao .hulianwang {
+  width: 65px;
+  height: 20px;
+  background: #ffc453;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  position: absolute;
+  left: 300px;
+  top: 25px;
+}
+
+.comment .bao .app {
+  width: 65px;
+  height: 20px;
+  background: #ff6a91;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  position: absolute;
+  left: 370px;
+  top: 25px;
+}
+
+.comment .bao .kehuduan {
+  width: 65px;
+  height: 20px;
+  background: #3ce694;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  position: absolute;
+  left: 440px;
+  top: 25px;
+}
+
+.comment .de {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  left: 72px;
+  top: 150px;
+}
+
+.comment .de .suo {
+  width: 90px;
+  height: 22px;
+  border-radius: 5px;
+  border: 1px solid #dfdfdf;
+  line-height: 22px;
+  text-align: center;
+  float: left;
+  font-weight: 800;
+}
+
+.comment .de .hangye {
+  margin-left: 50px;
+  float: left;
+}
+
+.comment .de .qi {
+  width: 90px;
+  height: 22px;
+  border-radius: 5px;
+  border: 1px solid #dfdfdf;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 800;
+  position: absolute;
+  left: 0px;
+  top: 30px;
+}
+
+.comment .de .lei {
+  margin-left: 50px;
+  position: absolute;
+  left: 90px;
+  top: 30px;
+}
+
+.comment .de .gui {
+  width: 90px;
+  height: 22px;
+  border-radius: 5px;
+  border: 1px solid #dfdfdf;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 800;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+}
+
+.comment .de .mo {
+  margin-left: 50px;
+  position: absolute;
+  left: 90px;
+  top: 60px;
+}
+
+.comment .de .di {
+  width: 90px;
+  height: 22px;
+  border-radius: 5px;
+  border: 1px solid #dfdfdf;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 800;
+  position: absolute;
+  left: 0px;
+  top: 90px;
+}
+
+.comment .de .zhi {
+  margin-left: 50px;
+  position: absolute;
+  left: 90px;
+  top: 90px;
+}
+
+.comment .de .wang {
+  width: 90px;
+  height: 22px;
+  border-radius: 5px;
+  border: 1px solid #dfdfdf;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 800;
+  position: absolute;
+  left: 0px;
+  top: 120px;
+}
+
+.comment .de .www {
+  margin-left: 50px;
+  position: absolute;
+  left: 90px;
+  top: 120px;
+  color: #91ccf9;
+}
+
+.recruit {
+  width: 1200px;
+  height: 430px;
+  background: #fff;
+  border-radius: 15px;
+  margin: 0px auto;
+  border-top: 3px solid #10c3ea;
+  position: relative;
+}
+
+.recruit .xiangxi {
+  margin-left: 42px;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  font-size: 30px;
+  color: #5bdb9d;
+}
+
+.recruit .ka {
+  width: 540px;
+  height: 70px;
+  border: 1px solid #dfdfdf;
+  border-left: 2px solid #00b38a;
+  position: absolute;
+  left: 40px;
+  top: 145px;
+}
+
+.recruit .ka .Designer {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #00b38a;
+  font-size: 20px;
+}
+
+.recruit .ka .money {
+  margin-left: 10px;
+  color: #716773;
+  font-size: 16px;
+}
+
+.recruit .ka .money :nth-child(1) {
+  color: red;
+}
+
+.recruit .ka .money :nth-child(2) {
+  margin-left: 15px;
+}
+
+.recruit .ka .time {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.recruit .ka2 {
+  width: 540px;
+  height: 70px;
+  border: 1px solid #dfdfdf;
+  border-left: 2px solid #00b38a;
+  position: absolute;
+  right: 56px;
+  top: 145px;
+}
+
+.recruit .ka2 .Designer {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #00b38a;
+  font-size: 20px;
+}
+
+.recruit .ka2 .money {
+  margin-left: 10px;
+  color: #716773;
+  font-size: 16px;
+}
+
+.recruit .ka2 .money :nth-child(1) {
+  color: red;
+}
+
+.recruit .ka2 .money :nth-child(2) {
+  margin-left: 15px;
+}
+
+.recruit .ka2 .time {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.recruit .ka3 {
+  width: 540px;
+  height: 70px;
+  border: 1px solid #dfdfdf;
+  border-left: 2px solid #00b38a;
+  position: absolute;
+  left: 40px;
+  top: 250px;
+}
+
+.recruit .ka3 .Designer {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #00b38a;
+  font-size: 20px;
+}
+
+.recruit .ka3 .money {
+  margin-left: 10px;
+  color: #716773;
+  font-size: 16px;
+}
+
+.recruit .ka3 .money :nth-child(1) {
+  color: red;
+}
+
+.recruit .ka3 .money :nth-child(2) {
+  margin-left: 15px;
+}
+
+.recruit .ka3 .time {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.recruit .ka4 {
+  width: 540px;
+  height: 70px;
+  border: 1px solid #dfdfdf;
+  border-left: 2px solid #00b38a;
+  position: absolute;
+  right: 56px;
+  top: 250px;
+}
+
+.recruit .ka4 .Designer {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #00b38a;
+  font-size: 20px;
+}
+
+.recruit .ka4 .money {
+  margin-left: 10px;
+  color: #716773;
+  font-size: 16px;
+}
+
+.recruit .ka4 .money :nth-child(1) {
+  color: red;
+}
+
+.recruit .ka4 .money :nth-child(2) {
+  margin-left: 15px;
+}
+
+.recruit .ka4 .time {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.recruit .ka5 {
+  width: 540px;
+  height: 70px;
+  border: 1px solid #dfdfdf;
+  border-left: 2px solid #00b38a;
+  position: absolute;
+  left: 40px;
+  top: 350px;
+}
+
+.recruit .ka5 .Designer {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #00b38a;
+  font-size: 20px;
+}
+
+.recruit .ka5 .money {
+  margin-left: 10px;
+  color: #716773;
+  font-size: 16px;
+}
+
+.recruit .ka5 .money :nth-child(1) {
+  color: red;
+}
+
+.recruit .ka5 .money :nth-child(2) {
+  margin-left: 15px;
+}
+
+.recruit .ka5 .time {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.recruit .ka6 {
+  width: 540px;
+  height: 70px;
+  border: 1px solid #dfdfdf;
+  border-left: 2px solid #00b38a;
+  position: absolute;
+  right: 56px;
+  top: 350px;
+}
+
+.recruit .ka6 .Designer {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #00b38a;
+  font-size: 20px;
+}
+
+.recruit .ka6 .money {
+  margin-left: 10px;
+  color: #716773;
+  font-size: 16px;
+}
+
+.recruit .ka6 .money :nth-child(1) {
+  color: red;
+}
+
+.recruit .ka6 .money :nth-child(2) {
+  margin-left: 15px;
+}
+
+.recruit .ka6 .time {
+  position: absolute;
+  right: 30px;
+  top: 20px;
 }
