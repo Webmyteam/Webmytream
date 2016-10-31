@@ -396,3 +396,5 @@ img {
   .center a {
     color: #8E8E8E;
     font-size: 14px; }
+  .center a:hover {
+    color: #8E8E8E; }
