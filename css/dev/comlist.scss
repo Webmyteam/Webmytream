@@ -1,0 +1,213 @@
+@import "base";
+@import url("base.css");
+@mixin square($width,$height,$background){
+    width:$width;
+    height:$height;
+    background:$background;
+}
+$box-shadow:0px 0px 12px rgba(0,0,0,.2);
+@mixin positions($margin,$border-bottom,$box-shadow,$background){
+    margin:$margin;
+    border-bottom:$border-bottom;
+    box-shadow:$box-shadow;
+    background:$background;
+}
+@mixin po-img($width,$height,$background,$margin,$position,$top,$border-radius,$border){
+    width:$width;
+    height:$height;
+    background:$background;
+    margin:$margin;
+    position:$position;
+    top:$top;
+    border-radius:$border-radius;
+    border:$border;
+}
+/*banner*/
+.banner {
+    width: 1000px;
+    height: 653px;
+    margin: 0px auto;
+    background: transparent;
+    margin-top:38px;
+    position:relative;
+    .banner-img{
+        position:relative;
+        z-index:10;
+        .ban-img{
+            position:absolute;
+            left:0px;
+            top:0px;
+        }
+        a{
+            display:block;
+            width:100%;
+            height:653px;
+            img{
+                width:100%;
+                height:100%;
+            }
+        }
+    }
+    .bg-dibu{
+        width:150px;
+        height:500px;
+        background:#167868;
+        position:absolute;
+        bottom:46px;
+        right:-73px;
+        opacity:.9;
+    }
+    .Circle{
+        width:120px;
+        height:241px;
+        background:url($img-path+"/comlist/bg-yellow.png");
+        z-index:5px;
+        position:absolute;
+        right:-110px;
+        bottom:90px;
+        ul{
+            width:15px;
+            height:120px;
+            margin:38px 0px 0px 36px;
+            text-align:right;
+            .circle{
+                width:15px;
+                height:15px;
+                background:#fff;
+                border-radius:50%;
+                margin-bottom:15px;
+                border:3px solid #fff;
+            }
+            .first{
+                background:none;
+            }
+        }
+    }
+    .btn{
+        width:100px;
+        height:37px;
+        background:#fff;
+        position:absolute;
+        right:-80px;
+        bottom:120px;
+        border-radius:20px;
+        text-align:right;
+        .gt{
+            font-size:24px;
+            font-family:simsun;
+            line-height:37px;
+            float:right;
+            font-weight:600;
+            color:#ffcd1f;
+        }
+        .pre{
+            margin-left:10px;
+            margin-right:15px;
+        }
+    }
+    
+}
+.z-bj-xiao{
+    @include square(65px,65px,#ffcd1f);
+    opacity:.5;
+    position:absolute;
+    left:66px;
+    bottom:222px;
+    z-index:12;
+}
+.z-bj-da{
+    @include square(120px,120px,#ffcd1f);
+    opacity:.5;
+    position:absolute;
+    left:96px;
+    bottom:136px;
+    z-index:12;
+}
+.mode{
+    @include square(590px,200px,#0FC8F0);
+    position:absolute;
+    left:90px;
+    bottom:30px;
+    z-index:12;
+}
+.mode-ks{
+    @include square(900px,199px,transparent);
+//  @include bs;
+    box-shadow:$box-shadow;
+    background:url($img-path+"/comlist/bg-ss.png");
+    position:absolute;
+    left:223px;
+    bottom:-92px;
+    z-index:33;
+}
+/*head End*/
+/*center*/
+.center{
+    @include square(1200px,auto,transparent);
+    margin:130px auto 30px;
+    overflow:hidden;
+    .center-left{
+        @include square(580px,194px,transparent);
+        background:url($img-path+"/comlist/huang.png");
+        float:left;
+        margin-right:39px;
+        box-shadow:$box-shadow;   
+    }
+    .center-right{
+        @include square(580px,194px,transparent);
+        background:url($img-path+"/comlist/lv.png");
+        float:left;
+        box-shadow:$box-shadow;    
+    }
+}
+/*positions*/
+.Positions{
+    margin:49px auto 12px;
+}
+.positions{
+    @include square(1200px,219px,transparent);
+    .po-img{
+        @include po-img(133px,133px,url($img-path+"/comlist/b_17.png"),43px 30px 0px 75px,absolute,0px,50%,0px solid #DDDDDD);
+        background-position:0px 0px;
+        background-size:cover;
+    }
+    .po-tub{
+//      width:150px;
+//      height:150px;
+        padding-left:16px;
+        position:absolute;
+        left:239px;
+        top:0px;
+        margin-top:46px;
+        li{
+            line-height:1.5px;
+            margin:26px auto 40px;
+
+            letter-spacing:2px;
+            a{
+                color:#B2B2B2; 
+                font-size:14px;
+                text-transform:uppercase;
+            }
+            &:nth-child(2) a{
+                color:#666;
+                font-weight:600;
+                
+                
+            }
+            span{
+               margin-left:26px;
+               font-size:14px;
+            }
+        }
+    }
+}
+.positions:nth-of-type(1){
+    @include positions($margin,1px solid #0fc6ee,$box-shadow,url($img-path+"/comlist/bg-middle.png"));
+}
+.positions:nth-of-type(2){
+    @include positions(12px auto 12px,1px solid #FBC74B,$box-shadow,url($img-path+"/comlist/bg-middle.png"));
+}
+.positions:nth-of-type(3){
+    @include positions(12px auto 12px,1px solid #0fc6ee,$box-shadow,url($img-path+"/comlist/bg-middle.png"));
+}
