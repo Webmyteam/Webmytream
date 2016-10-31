@@ -277,3 +277,350 @@ a:hover {
   right: -101px;
   top: 100px;
 }
+
+.product {
+  width: 1200px;
+  height: 640px;
+  padding-left: 45px;
+  box-sizing: border-box;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  background: #f4f4f4;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product #tu4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.product .title {
+  float: left;
+  width: auto;
+  height: auto;
+}
+
+.product .box {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+.product .box .food {
+  width: auto;
+  height: auto;
+  float: left;
+}
+
+.product .box .list {
+  width: 930px;
+  height: auto;
+  float: left;
+  padding-left: 35px;
+}
+
+.product .box .list p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #a3a3a3;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.fanye {
+  width: 1200px;
+  height: 50px;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fanye a:nth-of-type(1) {
+  line-height: 50px;
+  color: #35a2ff;
+  font-size: 12px;
+  float: left;
+  font-family: "consolas";
+}
+
+.fanye a:nth-of-type(2) {
+  line-height: 50px;
+  color: #35a2ff;
+  font-size: 12px;
+  float: right;
+  font-family: "consolas";
+}
+
+.fanye span {
+  color: #c3c3c3;
+  line-height: 50px;
+}
+
+.tuijian {
+  width: 1200px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tuijian .title {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.tuijian .zuopin {
+  width: 33.333%;
+  height: auto;
+  padding-right: 30px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.tuijian .zuopin .bot {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.tuijian .zuopin .bot .pvideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.bot .zp {
+  font-size: 16px;
+  color: #666;
+  padding-left: 20px;
+  line-height: 44px;
+  font-weight: 500;
+}
+
+.bot .zp2 {
+  font-size: 12px;
+  color: #9a9899;
+  padding-left: 20px;
+  line-height: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.bot span {
+  float: left;
+  line-height: 22px;
+}
+
+.bot img {
+  float: left;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.bot .circle {
+  margin-top: 2px;
+}
+
+/* comment */
+.comment {
+  width: 1200px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comment .title {
+  width: auto;
+  height: auto;
+}
+
+.comment .review {
+  width: 100%;
+  height: auto;
+  margin-top: 65px;
+  position: relative;
+}
+
+.comment .review .hx {
+  width: 1140px;
+  height: 1px;
+  background: #f0f0f0;
+  margin-left: 30px;
+}
+
+.comment .review #fabu {
+  position: absolute;
+  left: 46px;
+  top: -37px;
+}
+
+.comment .review .shengyu {
+  position: absolute;
+  right: 50px;
+  top: 25px;
+}
+
+.comment .review .text {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.comment .review .text img {
+  margin-left: 50px;
+  float: left;
+  margin-right: 20px;
+}
+
+.comment .review .text .textarea {
+  width: 1020px;
+  height: 185px;
+  box-sizing: border-box;
+  border: 1px solid #dedede;
+  float: left;
+  border-radius: 8px;
+  padding-left: 25px;
+  padding-top: 25px;
+  color: #000;
+  font-size: 14px;
+}
+
+.comment .review .text .select {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #5ddda0;
+  float: left;
+  margin-left: 165px;
+  margin-top: 20px;
+}
+
+.comment .review .text span {
+  float: left;
+  margin-left: 10px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.comment .review .text .reset {
+  float: right;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.comment .review .text .submit {
+  float: right;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.send {
+  width: 1190px;
+  height: 1100px;
+  padding-left: 10px;
+  margin-top: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.send .about {
+  position: absolute;
+  top: -33px;
+  left: 30px;
+}
+
+.send .name {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-top: 1px solid #dfdfdf;
+}
+
+.send .name .send-img {
+  margin-left: 30px;
+  margin-top: 50px;
+  float: left;
+}
+
+.send .name p:nth-of-type(1) {
+  float: left;
+  font-size: 14px;
+  color: #3e3e3e;
+  margin-top: 50px;
+  margin-left: 44px;
+}
+
+.send .name p:nth-of-type(1) i {
+  font-size: 12px;
+  color: #727272;
+  font-style: normal;
+}
+
+.send .name p:nth-of-type(2) {
+  width: auto;
+  font-size: 14px;
+  color: #3e3e3e;
+  margin-top: 90px;
+  margin-left: 160px;
+  letter-spacing: 0.08em;
+}
+
+.send .name p:nth-of-type(2) i {
+  font-size: 12px;
+  color: #727272;
+  font-style: normal;
+}
+
+.send .name a {
+  float: right;
+  color: #35a2ff;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.send .name .like {
+  float: right;
+  margin-right: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.send .name span {
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.send .name .yinyong {
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.send .name .content {
+  width: 470px;
+  height: 85px;
+  display: block;
+  margin-left: 150px;
+  margin-top: 50px;
+  border: 1px solid #dedede;
+  padding-top: 10px;
+  color: #e2e2e2;
+  border-radius: 5px;
+}
+
+#name {
+  float: left;
+  margin-top: 0;
+  color: #3e3e3e;
+}
