@@ -106,6 +106,13 @@ img {
         height: 100%;
         text-align: center;
         line-height: 32px; }
+      .center .nei .nc .ss img {
+        width: 13px;
+        height: 11px;
+        position: absolute;
+        left: 45px;
+        z-index: 10;
+        top: 10px; }
       .center .nei .nc .mn {
         width: 63px;
         height: 32px;

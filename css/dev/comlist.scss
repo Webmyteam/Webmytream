@@ -353,3 +353,118 @@ $box-shadow:0px 0px 12px rgba(0,0,0,.2);
         @include square(145px,42px,url($img-path+"/comlist/bg-lan.png"));
     }
 }
+/*display of works*/
+.work{
+    @include square($inner-width,426px,transparent);
+    margin:$margin;
+    .work-top{
+        @include square($inner-width,49px,transparent);
+        .work-left{
+            float:left;
+        }
+        .circle-nav{
+            width:60px;
+            margin-left:15px;
+            .first{
+                display:inline-block;
+                width:33px;
+                height:5px;
+                background:#FFCD1F;
+                margin:2px 0px;
+                border-radius:5px;
+            }
+            .last{
+                display:inline-block;
+                @include yuan(6px,#ffcd1f);
+                margin:2px 0px 2px 3px;
+            }
+        } 
+        .work-nav{
+            margin:0px 30px 0px 15px;
+            p{
+                font-size:14px;
+                color:#575757;
+                span{
+                    font-size:18px;
+                    color:#45b45a;
+                }
+            }
+        }
+        .work-icon{
+            float:left;
+            li{
+               margin:4px 29px 0px 0px;
+               float:left;
+               a{
+                   line-height:42px;
+                   font-size:16px;
+                   margin-left:24px;
+                   letter-spacing:2px;
+                   &:hover{
+                       color:#fff;
+                   }
+               }
+            }
+            li:nth-child(1){
+               @include square(145px,42px,url($img-path+"/comlist/b_36.png"));
+            }
+            li:nth-child(2){
+               @include square(145px,42px,url($img-path+"/comlist/b_38.png"));
+            }
+            li:nth-child(3){
+               @include square(145px,42px,url($img-path+"/comlist/b_38.png"));
+            }
+        }
+    }
+    .work-center{
+        @include square($inner-width,350px,transparent);
+        ul{
+            @include square(100%,auto,transparent);
+            margin:$margin;
+            overflow:hidden;
+            li{
+//              @include square(365px,267px,url($img-path+"/comlist/b_44.png"));
+                margin:20px 0px 10px 31px;
+//              background-repeat:no-repeat;
+                float:left;
+                img.dt{
+                    display:block;
+                    width:365px;
+                    height:267px;
+                }
+                .line{
+                    position:relative;
+                    top:34px;
+                    width:80px;
+                    border:1px solid #707577;
+                    margin:5px;
+                    .color{
+                        position:absolute;
+                        width:15px;
+                        border:1px solid #ffcd1f;
+                        top:-1px;
+                        right:0px;
+                    }
+                }
+                .font{
+                    float:left;
+                    p{
+                        width:265px;
+                        margin:3px 5px 6px;
+                        font-size:14px;
+                        b{
+                            font-size:16px;
+                        }
+                    }
+                }
+                img.xt{
+                    width:77px;
+                    height:77px;
+                    display:block;
+                    float:left;
+                    margin-top:5px;
+                }
+            }
+        }
+    }
+}
